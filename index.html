@@ -3,10 +3,9 @@
   <head>
     <title>HoN Assistant</title>
     <link rel="stylesheet" type="text/css" href="dist/css/output.css" />
-    <!-- <script src="dist/basic.js"></script>
-    <script src="dist/setup.js"></script>
-    <script src="dist/roll.js"></script>
-    <script src="dist/cookies.js"></script> -->
+    <script src="dist/basic.js"></script>
+    <script src="dist/database.js"></script>
+    <script src="dist/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -50,24 +49,24 @@
               <select id="army-setting">
                 <option value="US" selected>US Army</option>
                 <option value="GE">German Army</option>
-                <option value="UK">Commonwealth</option>
+                <option value="US-P" disabled>US Paratroopers</option>
+                <option value="CW-P" disabled>Commonwealth Paratroopers</option>
               </select>
               <label>Restrictions:</label>
               <select id="army-value">
                 <option value="999999" selected>Unlimited Points</option>
                 <option value="100" disabled>100 Points</option>
-                <option value="100" disabled>150 Points</option>
-                <option value="100" disabled>200 Points</option>
-                <option value="100" disabled>250 Points</option>
-                <option value="100" disabled>300 Points</option>
-                <option value="100" disabled>300 Points</option>
-                <option value="100" disabled>350 Points</option>
-                <option value="100" disabled>400 Points</option>
-                <option value="100" disabled>450 Points</option>
-                <option value="100" disabled>500 Points</option>
+                <option value="150" disabled>150 Points</option>
+                <option value="200" disabled>200 Points</option>
+                <option value="250" disabled>250 Points</option>
+                <option value="300" disabled>300 Points</option>
+                <option value="350" disabled>350 Points</option>
+                <option value="400" disabled>400 Points</option>
+                <option value="450" disabled>450 Points</option>
+                <option value="500" disabled>500 Points</option>
               </select>
               <select id="other-restrictions">
-                <option value="US" disabled>No Vehicles</option>
+                <option value="no-vehic" disabled>No Vehicles</option>
               </select>
             </form>
           </div>

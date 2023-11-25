@@ -5,13 +5,13 @@ interface Squad {
   recruit: { front: string; back: string };
   contents: { front: string; back: string }[];
   available_slots: {
-    'M1': number,
-    'M2': number,
-    'D1': number,
-    'D2': number,
-    'G1': number,
-    'G2': number,
-   };
+    M1: number;
+    M2: number;
+    D1: number;
+    D2: number;
+    G1: number;
+    G2: number;
+  };
   type: string;
   subtype: string;
   size: number;
@@ -78,7 +78,7 @@ function createOptions(
   platoonOptions: HTMLDivElement,
   optionType: string,
   optionSize: string,
-  squadList: {[id: string]: Squad},
+  squadList: { [id: string]: Squad },
   platoonKey: string,
 ) {
   let optionsDiv = document.createElement('div');
@@ -91,7 +91,7 @@ function createOptions(
 
 function appendSquads(
   parentDiv: HTMLDivElement,
-  squadList: {[id: string]: Squad},
+  squadList: { [id: string]: Squad },
   platoonOptions: HTMLDivElement = document.createElement('div'),
 ) {
   for (const [id, squad] of Object.entries(squadList)) {
@@ -160,8 +160,8 @@ function appendFireTeams(
 function constructPlatoons(availableSquads: ArmyDatabase) {
   const recruiter = document.getElementById('recruiter');
 
-  const genericPlatoon = availableSquads['1generic']
-  
+  const genericPlatoon = availableSquads['1generic'];
+
   if (recruiter) {
     for (const [platoonKey, platoon] of Object.entries(availableSquads)) {
       let platoonDiv =

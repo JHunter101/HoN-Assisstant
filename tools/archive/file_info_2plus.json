@@ -1,216 +1,18 @@
 {
-  "345668": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456358124a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456314914a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456266834a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013455144084a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456237964a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013455151994a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013455120014a81a82681d47cdd39603cf4a6edf6be5e44e747.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_b.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_b.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_b.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recon_team_b.png",
-    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png",
-    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/bazooka_b.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_b.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/scout-bazooka_b.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/tricky_b.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/scout-bar_b.png"
-  ],
-  "180342": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc1849302001345635329e9f78f746bd925c5df028dbc22f98752766e5096.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455950538218af54e64276e0d3008c1f7cbad0629d48066d.png",
-    "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-assault-group_b.png",
-    "res/HoN-v1/army-box-us/us/weapon-platoon/option-30-cal-squad_b.png"
-  ],
-  "157488": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013455146331a252129fe01ba6640ca71b6115d4fa27e768a4a.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-8th/officer_a.png",
-    "res/HoN-v1/hon-core/us/rifle-platoon-8th/to_be_deleted/officer_b.png"
-  ],
-  "143354": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc1849302001345628439f0687721ae5176782ee59421a1dda7beaeffd74f.png",
-    "res/HoN-v1/hon-core/us/gears/grenade_option.png",
-    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/grenade-option.png",
-    "res/HoN-v1/army-box-us/us/generic/grenade_option.png"
-  ],
-  "135342": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456283812047775b2df4518e944a7801b5d490fe76b3b53e.png",
-    "res/HoN-v1/hon-core/us/gears/veteran_option.png",
-    "res/HoN-v1/army-box-us/us/generic/veteran_option.png"
-  ],
-  "685245": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc1849302001345580757ab56573cbf5dfb8044201ff457616094615c171f.png",
-    "res/HoN-v1/army-box-cw/cw/command/smoke-marker_a.png",
-    "res/HoN-v1/army-box-ge/ge/command/smoke-marker_a.png",
-    "res/HoN-v1/army-box-us/us/command/smoke-marker_a.png"
-  ],
-  "166904": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc1849302001345620393afb0c953a419419076fc0de428bf0cb76fae13d7.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/ridley_b.png",
-    "res/HoN-v1/army-box-us/us/recon-platoon/kowalski_b.png"
-  ],
-  "443707": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013456158009ca12818b716069b3185b2f7c704dbc48750e265.png",
-    "res/HoN-v1/gazette-1/ge/generic/57mm-at-gun.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/ui-assets/tournament-round-3.jpg"
-  ],
-  "299575": [
-    "res/tiles/v1-us/httpcloud3steamusercontentcomugc18493020013453784032fd03396d07fb148eaa6165bd9be359458f0442f.png",
-    "res/HoN-v1/army-box-ge/ge/sturmpioniere/flamer_b.png",
-    "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/flamer_b.png"
-  ],
-  "302037": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455121565b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455152485b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455776565b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455818865b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455840615b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455850615b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455875065b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455891675b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455903695b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455952035b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/tiles/v1-gef/httpcloud3steamusercontentcomugc18493020013455152485b7487fde2b3d67a9204dab4ca6cafae71e186ef.png",
-    "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_a_b.png",
-    "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_b_b.png",
-    "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_b.png",
-    "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recon_group_b.png",
-    "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_b.png",
-    "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzershreck_b.png",
-    "res/HoN-v1/hon-core/ge/generic/zundapp_b.png",
-    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recon-group_b.png",
-    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck_b.png"
-  ],
-  "403792": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc1849302001345515577bb9578a6f57e6ead046a2a08d66c77c51800fa92.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc1849302001345584966bb9578a6f57e6ead046a2a08d66c77c51800fa92.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc1849302001345586400bb9578a6f57e6ead046a2a08d66c77c51800fa92.png",
-    "res/tiles/v1-gef/httpcloud3steamusercontentcomugc1849302001345515577bb9578a6f57e6ead046a2a08d66c77c51800fa92.png",
-    "res/HoN-v1/hon-core/ge/generic/pak40_b.png",
-    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun_b.png"
-  ],
-  "61717": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc184930200134558071055315e0dc18140cd6e2f130abb34745939242f44.png",
-    "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/magnetic-mine_b.png",
-    "res/HoN-v1/army-box-ge/ge/generic/magnetic-mine_b.png"
-  ],
-  "187898": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc1849302001345581428e251ff46fd43f43d699be2097b8ad1a4e52fff33.png",
-    "res/tiles/v1-gef/httpcloud3steamusercontentcomugc1849302001345581428e251ff46fd43f43d699be2097b8ad1a4e52fff33.png",
-    "res/HoN-v1/carentan/ge/feldkommando/fortified-option.png"
-  ],
-  "675759": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc184930200134558234900889ad0341bc83a52ca2015bc7a1cdd3a0ffdfd.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc184930200134559369200889ad0341bc83a52ca2015bc7a1cdd3a0ffdfd.png",
-    "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-02_b.png",
-    "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-01_b.png"
-  ],
-  "721632": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc184930200134558273110627f24e89802d8abbec7feb644188a58923666.png",
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc184930200134558844510627f24e89802d8abbec7feb644188a58923666.png",
-    "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv_b.png",
-    "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv-cmd_b.png"
-  ],
-  "68750": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc1849302001345587143cc7541fc2fe7631a460c605793fd88bc37c76343.png",
-    "res/tiles/v1-gef/httpcloud3steamusercontentcomugc1849302001345587143cc7541fc2fe7631a460c605793fd88bc37c76343.png",
-    "res/HoN-v1/carentan/ge/feldkommando/fortified.png"
-  ],
-  "120164": [
-    "res/tiles/v1-ge/httpcloud3steamusercontentcomugc18493020013455880279503bd4ccb28858a880f3b962110fd573c8e4f6e.png",
-    "res/HoN-v1/pegasus-bridge/ge/generic/flares-option.png",
-    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/guardian-option.png"
-  ],
   "409602": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc1849302001345638237c48613bec6a4cddb5bd0cd755c5e1ad6ba751eb8.png",
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc1849302001345638368c48613bec6a4cddb5bd0cd755c5e1ad6ba751eb8.png",
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc1849302001345651128c48613bec6a4cddb5bd0cd755c5e1ad6ba751eb8.png",
     "res/HoN-v1/army-box-cw/cw/generic/universal-carrier_b.png",
     "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier_b.png",
     "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier-generic_b.png"
-  ],
-  "134169": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc184930200134564372150355333a49e00f2ef9cfe724ee3ebb42abf624b.png",
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc1849302001345338743bc59d47534dea061bb8591145c438f25ff291e74.png",
-    "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/hardboiled-option.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/german/festungkompanie_2nd-battalion-reg-916-352-inf-div/7.5cm-group-option_b.png"
-  ],
-  "300341": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc1849302001345644292edc8fd72bf194e18211a45b30e2ab042b5fca213.png",
-    "res/HoN-v1/army-box-cw/cw/command/concealed-unit-backside.png",
-    "res/HoN-v1/army-box-cw/cw/weapon-platoon/bazooka_b.png"
-  ],
-  "591229": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc18493020013456461389bb7fcd985fe8e76cf33ce7f708dfa0c3d6f4a58.png",
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc18493020013456554969bb7fcd985fe8e76cf33ce7f708dfa0c3d6f4a58.png",
-    "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkvii_b.png",
-    "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkiv_b.png"
-  ],
-  "196917": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc184930200134564876123e51217030ad1df3a879ab79544dbf46e7a437b.png",
-    "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-support_a.png",
-    "res/HoN-v2/battlepack-2_-battle-for-caen/german/ss-panzergrnadiere_i-battalion-reg-25-12-ss-pz-div-hitlerjugend/panzerschreck-group-option_b.png"
-  ],
-  "182270": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc184930200134565389060e5c01a67969b0b4c383671d4136b9c39cd3851.png",
-    "res/HoN-v1/army-box-cw/cw/command/c-maud_a.png",
-    "res/HoN-v2/battlepack-2_-battle-for-caen/carpiquet-expansion/01_bp-03_hon_product_tts_gea/gea_hq/panzergrenadiere-option_b.png"
-  ],
-  "299126": [
-    "res/tiles/v1-uk/httpcloud3steamusercontentcomugc184930200134551535465fa2138ede693c7ccd935d58fa0315a12c9493d.png",
-    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka_b.png",
-    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-unit-e_b.png",
-    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-unit-f_b.png"
-  ],
-  "77305": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc1849302001345115096822c23c038156a2be3dceb67abaf4200caa0abcc.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-heroes/grenade_b.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-ranger_2nd-rangers-a-battalion/grenade_b.png",
-    "res/HoN-v2/war-stories-1_-fury/don-wardaddy-collier-fury-tank/grenade_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/german/german-options/grenade_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/american/us-options/grenade_b.png"
-  ],
-  "174619": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc184930200134511547846f009fe7b2b72e9a95c4c876ffb3e507d0d28da.png",
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc8178772021455167099b4a0b694063e01403653c097563dcf4c73f6ae1.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/american/us-options/m4-sherman-option_a.png"
-  ],
-  "74067": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc1849302001345121255e58e04bc1ed7cda0a9c5e592736b5e432ae38d27.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-combat-engineer_1st-inf-div-299th-battalion/explosive-m1_b.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-ranger_2nd-rangers-a-battalion/explosive-m1_b.png"
-  ],
-  "646741": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc18493020013453464532441a2dd1ab4b65f17266ab0f231d41463bd9a7d.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-heroes/recruitment-tiles-s.fueller_a.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-heroes/deprecated/recruitment-tiles-s.fueller_a.png"
-  ],
-  "404271": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc18493020013453465169a9bb014adf6d0b1cd0df14339ba85b427c148cd.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-heroes/recruitment-tiles-s.fueller_b.png",
-    "res/HoN-v2/battlepack-1_-bloody-omaha/american/us-heroes/deprecated/recruitment-tiles-s.fueller_b.png"
-  ],
-  "430582": [
-    "res/tiles/v2-us/httpcloud3steamusercontentcomugc184930200134534891268b89bbfb81a6b0ee1c2fa4744475b5b8acdbbcd.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/american/us-options/m8-ac-greyhound-01_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/american/us-options/deprecated/m8-ac-greyhound-01_b.png"
-  ],
-  "79258": [
-    "res/SoN/son-core/majestic/gears/veteran.png",
-    "res/HoN-v1/hon-core/us/gears/veteran.png",
-    "res/HoN-v1/army-box-us/us/generic/veteran.png"
-  ],
-  "117180": [
-    "res/HoN-v1/gazette-8/ffi/generic/option-laffly-w15-tcc_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/cards-us-ge/hon-v2_us_cards_eng/hon-br1-cards-us-eng39.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/cards/original-assets/hon-v2_us_cards_eng/hon-br1-cards-us-eng39.jpg"
   ],
   "743342": [
     "res/HoN-v1/army-box-cw/cw/command/smoke-marker_b.png",
     "res/HoN-v1/army-box-ge/ge/command/smoke-marker_b.png",
     "res/HoN-v1/army-box-us/us/command/smoke-marker_b.png"
+  ],
+  "685245": [
+    "res/HoN-v1/army-box-cw/cw/command/smoke-marker_a.png",
+    "res/HoN-v1/army-box-ge/ge/command/smoke-marker_a.png",
+    "res/HoN-v1/army-box-us/us/command/smoke-marker_a.png"
   ],
   "254046": [
     "res/HoN-v1/gazette-0/ffi/generic/bazooka_b.png",
@@ -223,6 +25,29 @@
     "res/HoN-v1/colonel-bastien-ffi/ffi/colonel-bastien-ffi/ffi-2_b.png",
     "res/HoN-v1/colonel-bastien-ffi/ffi/colonel-bastien-ffi/bazooka_b.png"
   ],
+  "302037": [
+    "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_a_b.png",
+    "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_b_b.png",
+    "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_b.png",
+    "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recon_group_b.png",
+    "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_b.png",
+    "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzershreck_b.png",
+    "res/HoN-v1/hon-core/ge/generic/zundapp_b.png",
+    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recon-group_b.png",
+    "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck_b.png"
+  ],
+  "345668": [
+    "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_b.png",
+    "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_b.png",
+    "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_b.png",
+    "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recon_team_b.png",
+    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png",
+    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/bazooka_b.png",
+    "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_b.png",
+    "res/HoN-v1/army-box-us/us/recon-platoon/scout-bazooka_b.png",
+    "res/HoN-v1/army-box-us/us/recon-platoon/tricky_b.png",
+    "res/HoN-v1/army-box-us/us/recon-platoon/scout-bar_b.png"
+  ],
   "70813": [
     "res/HoN-v1/hon-core/us/gears/grenade_a.png",
     "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/grenade_a.png",
@@ -233,32 +58,19 @@
     "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/grenade_b.png",
     "res/HoN-v1/army-box-us/us/generic/grenade_b.png"
   ],
+  "143354": [
+    "res/HoN-v1/hon-core/us/gears/grenade_option.png",
+    "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/grenade-option.png",
+    "res/HoN-v1/army-box-us/us/generic/grenade_option.png"
+  ],
   "345933": [
     "res/HoN-v1/army-box-us/us/command/hidden-unit-b_b.png",
     "res/HoN-v1/army-box-us/us/command/hidden-unit-a_b.png",
     "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_b.png"
   ],
-  "101210": [
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/cards-us-ge/hon-v2_us_cards_eng/hon-br1-cards-us-eng21.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/cards-us-ge/hon-v2_us_cards_eng/hon-br1-cards-us-eng20.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/cards/original-assets/hon-v2_us_cards_eng/hon-br1-cards-us-eng20.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/cards/original-assets/hon-v2_us_cards_eng/hon-br1-cards-us-eng21.jpg"
-  ],
-  "113223": [
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/cards-us-ge/hon-v2_ge_cards_fr/hon-br1-cards-ge-fr26.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/cards-us-ge/hon-v2_ge_cards_fr/hon-br1-cards-ge-fr27.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/cards/original-assets/hon-v2_ge_cards_fr/hon-br1-cards-ge-fr27.jpg",
-    "res/HoN-v2/core-box_-big-red-one-edition/cards/original-assets/hon-v2_ge_cards_fr/hon-br1-cards-ge-fr26.jpg"
-  ],
-  "100878": [
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/secondary-objective-neutral.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/secondary-objective-ge_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/secondary-objective-us_b.png"
-  ],
-  "55163": [
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/vehicule-damage-1_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/vehicule-damage-2_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/vehicule-damage-3-4_b.png",
-    "res/HoN-v2/core-box_-big-red-one-edition/elements/tokens/vehicule-damage-5_b.png"
+  "299126": [
+    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka_b.png",
+    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-unit-e_b.png",
+    "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-unit-f_b.png"
   ]
 }

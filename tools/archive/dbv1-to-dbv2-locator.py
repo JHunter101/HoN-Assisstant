@@ -66,4 +66,4 @@ def process_folders(folders):
 
 
 if __name__ == "__main__":
-    process_folders(["res-old", "res"])
+    process_folders(["res-old", "res/HoN-v1"])

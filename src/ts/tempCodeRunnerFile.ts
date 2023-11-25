@@ -38,7 +38,7 @@ interface Database {
         };
     };
 }
-const dataBase: Database = {
+ export const dataBase: Database = {
   "GE": {
     "army-box-ge": {
       "generic": {
