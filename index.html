@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HoN Assistant</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/output.css" />
+    <!-- <script src="dist/basic.js"></script>
+    <script src="dist/setup.js"></script>
+    <script src="dist/roll.js"></script>
+    <script src="dist/cookies.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.cdnfonts.com/css/share-techmono-2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.cdnfonts.com/css/ubuntu-mono-2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+    />
+  </head>
+
+  <body>
+    <div class="flex flex-col h-screen">
+      <section id="main-menu" class="section-container">
+        <div id="main-menu-message">
+          <h1>HoN Assistant: Army Builder</h1>
+          <h3>By Jack Chen</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div id="main-menu-settings">
+          <div class="options-container wow fadeIn">
+            <form id="">
+              <label>Select Games:</label>
+              <select id="main-setting">
+                <option value="HoN-V1" selected>Heroes of Normandie v1</option>
+                <option value="HoN-V2" disabled>Heroes of Normandie v2</option>
+                <option value="HoS" disabled>Heroes of Stalingrad</option>
+                <option value="SoN" disabled>Shadows over Normandie</option>
+                <option value="HoBR" disabled>Heroes of Black Reach</option>
+              </select>
+              <label>Select Expansions:</label>
+              <select id="expansions-setting">
+                <option value="all" selected>All Available</option>
+              </select>
+              <label>Select Army:</label>
+              <select id="army-setting">
+                <option value="US" selected>US Army</option>
+                <option value="GE">German Army</option>
+                <option value="UK">Commonwealth</option>
+              </select>
+              <label>Restrictions:</label>
+              <select id="army-value">
+                <option value="999999" selected>Unlimited Points</option>
+                <option value="100" disabled>100 Points</option>
+                <option value="100" disabled>150 Points</option>
+                <option value="100" disabled>200 Points</option>
+                <option value="100" disabled>250 Points</option>
+                <option value="100" disabled>300 Points</option>
+                <option value="100" disabled>300 Points</option>
+                <option value="100" disabled>350 Points</option>
+                <option value="100" disabled>400 Points</option>
+                <option value="100" disabled>450 Points</option>
+                <option value="100" disabled>500 Points</option>
+              </select>
+              <select id="other-restrictions">
+                <option value="US" disabled>No Vehicles</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="second" class="hidden">
+        <div id="army-builder" class="section-container">
+          <div id="builder" class="section-container"></div>
+          <div id="recruiter" class="section-container"></div>
+        </div>
+        <div id="army-overview" class="section-container"></div>
+        <div id="buttons" class="section-container">
+          <a href="#second" class="btn-black roll-dice" onclick=""
+            >Add Recruitment Tile
+          </a>
+          <a href="#second" class="btn-black roll-dice" onclick=""
+            >Show Army Overview
+          </a>
+          <a href="#second" class="btn-black roll-dice" onclick=""
+            >Main Menu
+          </a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
