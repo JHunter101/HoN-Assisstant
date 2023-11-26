@@ -4,8 +4,7 @@
     <title>HoN Assistant</title>
     <link rel="stylesheet" type="text/css" href="dist/css/output.css" />
     <script src="dist/basic.js"></script>
-    <script src="dist/database.js"></script>
-    <script src="dist/main.js"></script>
+    <script type="module" src="dist/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -35,8 +34,8 @@
             <form id="">
               <label>Select Games:</label>
               <select id="main-setting">
-                <option value="HoN-V1" selected>Heroes of Normandie v1</option>
-                <option value="HoN-V2" disabled>Heroes of Normandie v2</option>
+                <option value="HoN-v1" selected>Heroes of Normandie v1</option>
+                <option value="HoN-v2" disabled>Heroes of Normandie v2</option>
                 <option value="HoS" disabled>Heroes of Stalingrad</option>
                 <option value="SoN" disabled>Shadows over Normandie</option>
                 <option value="HoBR" disabled>Heroes of Black Reach</option>
@@ -49,6 +48,7 @@
               <select id="army-setting">
                 <option value="US" selected>US Army</option>
                 <option value="GE">German Army</option>
+                <option value="CW">Commonwealth Paratroopers</option>
                 <option value="US-P" disabled>US Paratroopers</option>
                 <option value="CW-P" disabled>Commonwealth Paratroopers</option>
               </select>
@@ -79,13 +79,13 @@
         </div>
         <div id="army-overview" class="section-container"></div>
         <div id="buttons" class="section-container">
-          <a href="#second" class="btn-black roll-dice" onclick=""
+          <a href="#second" class="btn-black roll-dice" onclick="setup()"
             >Add Recruitment Tile
           </a>
-          <a href="#second" class="btn-black roll-dice" onclick=""
+          <a href="#second" class="btn-black roll-dice" onclick="setup()"
             >Show Army Overview
           </a>
-          <a href="#second" class="btn-black roll-dice" onclick=""
+          <a href="#second" class="btn-black roll-dice" onclick="setup()"
             >Main Menu
           </a>
         </div>

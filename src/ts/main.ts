@@ -1,4 +1,4 @@
-import { dataBase } from 'dataBase.js';
+import { dataBase } from './dataBase.js';
 
 interface Squad {
   id: string;
@@ -160,7 +160,7 @@ function appendFireTeams(
 function constructPlatoons(availableSquads: ArmyDatabase) {
   const recruiter = document.getElementById('recruiter');
 
-  const genericPlatoon = availableSquads['1generic'];
+  const genericPlatoon = availableSquads['generic'];
 
   if (recruiter) {
     for (const [platoonKey, platoon] of Object.entries(availableSquads)) {
@@ -178,29 +178,38 @@ function constructPlatoons(availableSquads: ArmyDatabase) {
 
       for (const optionSize of ['2', '1']) {
         for (const optionType of ['ft-vehicle', 'ft-inf', 'gear']) {
-          platoonOptionsDiv = createOptions(
-            platoonOptionsDiv,
-            optionType,
-            optionSize,
-            platoon[optionType][optionSize],
-            platoonKey,
-          );
-
-          if (platoonKey != '1generic') {
+          if (platoon[optionType] && platoon[optionType][optionSize]) {
+            console.log(platoonKey, optionType, optionSize);
             platoonOptionsDiv = createOptions(
               platoonOptionsDiv,
               optionType,
               optionSize,
-              genericPlatoon[optionType][optionSize],
-              '1generic',
+              platoon[optionType][optionSize],
+              platoonKey,
             );
+          }
+          if (
+            genericPlatoon[optionType] &&
+            genericPlatoon[optionType][optionSize]
+          ) {
+            if (platoonKey != 'generic') {
+              platoonOptionsDiv = createOptions(
+                platoonOptionsDiv,
+                optionType,
+                optionSize,
+                genericPlatoon[optionType][optionSize],
+                'generic',
+              );
+            }
           }
         }
       }
 
       for (const recType of ['rc-plat', 'rc-hero']) {
-        for (const [, squadList] of Object.entries(platoon[recType])) {
-          platoonDiv = appendSquads(platoonDiv, squadList, platoonOptionsDiv);
+        if (platoon[recType]) {
+          for (const [, squadList] of Object.entries(platoon[recType])) {
+            platoonDiv = appendSquads(platoonDiv, squadList, platoonOptionsDiv);
+          }
         }
       }
 
@@ -223,18 +232,24 @@ function resetGameState(): GameState {
   };
 }
 
-function setup() {
+(window as any).setup = function setup() {
   resetArmy();
   const gameState: GameState = resetGameState();
-  gameState['main-setting'] = getInputElementValue('main-setting');
-  gameState['boxes-setting'] = getSelectElementValue('boxes-setting');
-  gameState['army-setting'] = getInputElementValue('army-setting');
-  gameState['army-value'] = parseInt(
-    getInputElementValue('army-value') as string,
-  );
-  gameState['other-restrictions'] = getSelectElementValue('other-restrictions');
+  // gameState['main-setting'] = getInputElementValue('main-setting');
+  // gameState['boxes-setting'] = getSelectElementValue('boxes-setting');
+  // gameState['army-setting'] = getInputElementValue('army-setting');
+  // gameState['army-value'] = parseInt(
+  //   getInputElementValue('army-value') as string,
+  // );
+  // gameState['other-restrictions'] = getSelectElementValue('other-restrictions');
+
+  gameState['main-setting'] = 'HoN-v1';
+  gameState['boxes-setting'] = ['hon-core'];
+  gameState['army-setting'] = 'US';
+  gameState['army-value'] = 999999999;
+  gameState['other-restrictions'] = [];
 
   const availableSquads = buildRecDatabase(dataBase, gameState);
   constructPlatoons(availableSquads);
   unhide_elem('second');
-}
+};
