@@ -29,11 +29,12 @@ function getInputElementValue(id: string): string {
   return inputElement.value;
 }
 
-function getSelectElementValue(id: string): string[] {
-  const inputElement = document.getElementById(id) as HTMLSelectElement;
-  const selectedOptions = Array.from(inputElement.selectedOptions);
-  const values = selectedOptions.map((option) => option.value);
-  return values;
+function getSelectElementValues(id: string): string[] {
+  const selectElement = document.getElementById(id) as HTMLSelectElement;
+  const selectedOptions = Array.from(selectElement.selectedOptions).map(
+    (option) => option.value,
+  );
+  return selectedOptions;
 }
 
 function toggleAllWithClass(elem: string): void {
@@ -49,4 +50,36 @@ function toggleAllWithClass(elem: string): void {
       toggle_elem(element.id);
     });
   }
+}
+
+function resetArmy() {
+  clearBox('builder');
+  const recruiter = document.getElementById('recruiter');
+  if (recruiter) {
+    recruiter.innerHTML = '';
+  }
+}
+
+type NestedDictionary = Record<string, any>;
+
+function mergeNestedDictionaries<T extends NestedDictionary>(
+  target: T,
+  source: T,
+): T {
+  for (const key in source) {
+    if (Object.prototype.hasOwnProperty.call(source, key)) {
+      if (
+        target[key] &&
+        typeof target[key] === 'object' &&
+        !Array.isArray(target[key])
+      ) {
+        // If the property is a nested object, recursively merge
+        target[key] = mergeNestedDictionaries(target[key], source[key]);
+      } else {
+        // Otherwise, assign the value directly
+        target[key] = source[key];
+      }
+    }
+  }
+  return target;
 }

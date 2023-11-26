@@ -11,7 +11,7 @@ pre_typing = """
 interface Squad {
   id: string;
   recruit: { front: string; back: string };
-  contents: { front: string; back: string }[];
+  contents: { recruit: { front: string; back: string } }[];
   available_slots: {
     'M1': number,
     'M2': number,
@@ -62,9 +62,9 @@ for _, row in data.iterrows():
         nested_dict = nested_dict.setdefault(key, {})
 
     img_contents = [
-        {"front": row[f"img_{i}"], "back": row[f"img_{i}_back"]}
+        {"recruit": {"front": row[f"img_{i}"], "back": row[f"img_{i}_back"]}}
         for i in range(1, 6)
-        if not pd.isnull(row[f"img_{i}"]) and pd.isnull(row[f"img_{i}_back"])
+        if not pd.isnull(row[f"img_{i}"]) and not pd.isnull(row[f"img_{i}_back"])
     ]
 
     row_slots = str(row["slots"])
@@ -79,7 +79,7 @@ for _, row in data.iterrows():
 
     nested_dict[id_] = {
         "id": id_,
-        "recruit": {"front": row["img_recruit_back"], "back": row["img_recruit_back"]},
+        "recruit": {"front": row["img_recruit"], "back": row["img_recruit_back"]},
         "contents": img_contents,
         "available_slots": available_slots,
         "type": type_,

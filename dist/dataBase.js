@@ -8,10 +8,23 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-command-recruitment-tile-field-command_a =": {
                             "id": "HoN-v1-army-box-cw-cw-command-recruitment-tile-field-command_a =",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-field-command_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-field-command_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-field-command_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/c-maud_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/c-maud_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/winnie_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/winnie_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -36,7 +49,7 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-command-recruitment-tile-high-command_a": {
                             "id": "HoN-v1-army-box-cw-cw-command-recruitment-tile-high-command_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-high-command_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-high-command_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/recruitment-tile-high-command_b.png"
                             },
                             "contents": [],
@@ -69,7 +82,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-concealed-ab.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-concealed-ab.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-concealed-ab.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-concealed-ab.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -95,7 +115,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-planning.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-planning.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-planning.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-planning.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -121,7 +148,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-smoke-x3.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-smoke-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-smoke-x3.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-smoke-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -147,7 +181,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x1.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x1.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -173,7 +214,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-directive-x1.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-directive-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-directive-x1.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-directive-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -199,7 +247,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-initiative.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-initiative.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-initiative.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-initiative.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -225,7 +280,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x1.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x1.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -253,7 +315,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-directive-x3.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-directive-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-directive-x3.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-directive-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -279,7 +348,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-battle-plan.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-battle-plan.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-battle-plan.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-battle-plan.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -305,7 +381,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x3.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x3.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-artillery-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -331,7 +414,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-concealed-cd.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-concealed-cd.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-concealed-cd.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-concealed-cd.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -357,7 +447,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x3.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x3.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/command/option-airstrike-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -389,7 +486,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/generic/fuel-option.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/fuel-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/fuel-option.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/fuel-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -415,7 +519,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/generic/ammo-option.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/ammo-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/ammo-option.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/ammo-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -441,7 +552,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/generic/veteran-option.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/veteran-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/veteran-option.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/veteran-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -467,7 +585,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/generic/grenade-option.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/grenade-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/grenade-option.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/grenade-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -494,10 +619,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-option-staghound_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-option-staghound_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-staghound_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-staghound_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/option-staghound_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/t17-staghound_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/t17-staghound_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -520,10 +652,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-option-universal-carrier_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-option-universal-carrier_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-universal-carrier_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-universal-carrier_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/option-universal-carrier_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -548,10 +687,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-option-churchill-avre_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-option-churchill-avre_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-churchill-avre_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-churchill-avre_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/option-churchill-avre_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/walter-pipkin_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/walter-pipkin_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -578,10 +724,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-option-vickers-mg_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-option-vickers-mg_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-vickers-mg_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/option-vickers-mg_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/option-vickers-mg_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/vickers_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/vickers_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -608,10 +761,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-recruitment-tile-sasha_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-recruitment-tile-sasha_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-sasha_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-sasha_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-sasha_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/sasha_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/sasha_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -634,10 +794,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-recruitment-tile-walter-pipkin_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-recruitment-tile-walter-pipkin_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-walter-pipkin_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-walter-pipkin_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-walter-pipkin_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/churchill-avre_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/churchill-avre_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -660,10 +827,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-generic-recruitment-tile-ernest-smokey-smith_a": {
                             "id": "HoN-v1-army-box-cw-cw-generic-recruitment-tile-ernest-smokey-smith_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-ernest-smokey-smith_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-ernest-smokey-smith_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/generic/recruitment-tile-ernest-smokey-smith_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/smokey_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/smokey_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -692,10 +866,41 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-rifle-platoon-recruitment-tile-suffolk-regiment_a": {
                             "id": "HoN-v1-army-box-cw-cw-rifle-platoon-recruitment-tile-suffolk-regiment_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/recruitment-tile-suffolk-regiment_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/recruitment-tile-suffolk-regiment_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/recruitment-tile-suffolk-regiment_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/officer_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/2-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/2-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -722,10 +927,29 @@ export const dataBase = {
                         "184930200134564876123E51217030AD1DF3A879AB79544DBF46E7A437B": {
                             "id": "184930200134564876123E51217030AD1DF3A879AB79544DBF46E7A437B",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-support_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-support_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-support_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/piat_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/piat_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -748,10 +972,29 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-rifle-platoon-option-piat-platoon_a": {
                             "id": "HoN-v1-army-box-cw-cw-rifle-platoon-option-piat-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-piat-platoon_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-piat-platoon_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-piat-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/piat_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/piat_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -774,10 +1017,29 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-rifle-platoon-option-bren-platoon_a": {
                             "id": "HoN-v1-army-box-cw-cw-rifle-platoon-option-bren-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-bren-platoon_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-bren-platoon_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/option-bren-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/rifle-platoon/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -806,10 +1068,23 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-tank-platoon-recruitment-tile-4th-county-of-london-yeomanry_a": {
                             "id": "HoN-v1-army-box-cw-cw-tank-platoon-recruitment-tile-4th-county-of-london-yeomanry_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/recruitment-tile-4th-county-of-london-yeomanry_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/recruitment-tile-4th-county-of-london-yeomanry_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/recruitment-tile-4th-county-of-london-yeomanry_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkiv-cmd_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkiv-cmd_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkiv_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkiv_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -839,7 +1114,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-apc-shells.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-apc-shells.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-apc-shells.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-apc-shells.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -865,7 +1147,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-ace-driver.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-ace-driver.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-ace-driver.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-ace-driver.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -892,10 +1181,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-tank-platoon-option-cromwell-mkvii_a": {
                             "id": "HoN-v1-army-box-cw-cw-tank-platoon-option-cromwell-mkvii_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-cromwell-mkvii_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-cromwell-mkvii_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-cromwell-mkvii_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkvii_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkvii_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -918,10 +1214,23 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-tank-platoon-option-troop_a": {
                             "id": "HoN-v1-army-box-cw-cw-tank-platoon-option-troop_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-troop_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-troop_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-troop_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkvii_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/cromwell-mkvii_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/sherman-firefly_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/sherman-firefly_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -944,10 +1253,17 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-tank-platoon-option-sherman-firefly_a": {
                             "id": "HoN-v1-army-box-cw-cw-tank-platoon-option-sherman-firefly_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-sherman-firefly_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-sherman-firefly_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/option-sherman-firefly_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/tank-platoon/sherman-firefly_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/tank-platoon/sherman-firefly_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -976,10 +1292,35 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-weapon-platoon-recruitment-tile-regiment-de-la-chaudiere_a": {
                             "id": "HoN-v1-army-box-cw-cw-weapon-platoon-recruitment-tile-regiment-de-la-chaudiere_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/recruitment-tile-regiment-de-la-chaudiere_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/recruitment-tile-regiment-de-la-chaudiere_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/recruitment-tile-regiment-de-la-chaudiere_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/officer_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/bazooka_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -1009,7 +1350,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-trigger-happy.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-trigger-happy.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-trigger-happy.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-trigger-happy.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1035,7 +1383,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-ammo-belt.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-ammo-belt.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-ammo-belt.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-ammo-belt.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1062,10 +1417,23 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-weapon-platoon-option-mechanized_a": {
                             "id": "HoN-v1-army-box-cw-cw-weapon-platoon-option-mechanized_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mechanized_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mechanized_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mechanized_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1092,10 +1460,29 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-weapon-platoon-option-mg-platoon_a": {
                             "id": "HoN-v1-army-box-cw-cw-weapon-platoon-option-mg-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mg-platoon_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mg-platoon_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mg-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/vickers_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1118,10 +1505,29 @@ export const dataBase = {
                         "HoN-v1-army-box-cw-cw-weapon-platoon-option-mortar-platoon_a": {
                             "id": "HoN-v1-army-box-cw-cw-weapon-platoon-option-mortar-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mortar-platoon_b.png",
+                                "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mortar-platoon_a.png",
                                 "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/option-mortar-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/3-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/weapon-platoon/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1152,10 +1558,35 @@ export const dataBase = {
                         "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-recruitment-tile_a": {
                             "id": "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/officer_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/flamer_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/flamer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -1185,7 +1616,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/hardboiled-option.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/hardboiled-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/hardboiled-option.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/hardboiled-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1211,7 +1649,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/ammo-belt-option.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/ammo-belt-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/ammo-belt-option.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/ammo-belt-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1238,10 +1683,17 @@ export const dataBase = {
                         "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-universal-carrier-option_a": {
                             "id": "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-universal-carrier-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier-option_b.png",
+                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier-option_a.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-cw/cw/generic/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/army-box-cw/cw/generic/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1266,10 +1718,23 @@ export const dataBase = {
                         "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-mg-platoon_a": {
                             "id": "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-mg-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mg-platoon_b.png",
+                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mg-platoon_a.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mg-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/vickers_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1296,10 +1761,23 @@ export const dataBase = {
                         "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-at-gun-platoon_a": {
                             "id": "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-at-gun-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/at-gun-platoon_b.png",
+                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/at-gun-platoon_a.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/at-gun-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/6-pounder-at-gun_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/6-pounder-at-gun_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/universal-carrier_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1322,10 +1800,23 @@ export const dataBase = {
                         "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-mortar-platoon-option_a": {
                             "id": "HoN-v1-east-yorkshire-regiment-cw-east-yorkshire-regiment-mortar-platoon-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mortar-platoon-option_b.png",
+                                "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mortar-platoon-option_a.png",
                                 "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/mortar-platoon-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/3-inch-mortar_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1356,10 +1847,17 @@ export const dataBase = {
                         "HoN-v1-gazette-2-cw-generic-recruitment-tile_a": {
                             "id": "HoN-v1-gazette-2-cw-generic-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-2/cw/generic/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/gazette-2/cw/generic/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/hobart_a.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/hobart_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1389,7 +1887,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/gazette-2/cw/generic/ap-shells-option.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/ap-shells-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/ap-shells-option.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/ap-shells-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1415,7 +1920,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/gazette-2/cw/generic/he-shells-option.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/he-shells-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/he-shells-option.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/he-shells-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1442,10 +1954,23 @@ export const dataBase = {
                         "HoN-v1-gazette-2-cw-generic-churchill-crocodile-option_a": {
                             "id": "HoN-v1-gazette-2-cw-generic-churchill-crocodile-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-2/cw/generic/churchill-crocodile-option_b.png",
+                                "front": "res/HoN-v1/gazette-2/cw/generic/churchill-crocodile-option_a.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/churchill-crocodile-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/trailer.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/churchill-crocodile_a.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/churchill-crocodile_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1468,10 +1993,17 @@ export const dataBase = {
                         "HoN-v1-gazette-2-cw-generic-sherman-crab-option_a": {
                             "id": "HoN-v1-gazette-2-cw-generic-sherman-crab-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-2/cw/generic/sherman-crab-option_b.png",
+                                "front": "res/HoN-v1/gazette-2/cw/generic/sherman-crab-option_a.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/sherman-crab-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/sherman-crab_a.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/sherman-crab_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1494,10 +2026,23 @@ export const dataBase = {
                         "HoN-v1-gazette-2-cw-generic-churchill-ark-mark-1-option_a": {
                             "id": "HoN-v1-gazette-2-cw-generic-churchill-ark-mark-1-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-mark-1-option_b.png",
+                                "front": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-mark-1-option_a.png",
                                 "back": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-mark-1-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-bridge_a.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-bridge_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-mark-1_a.png",
+                                        "back": "res/HoN-v1/gazette-2/cw/generic/churchill-ark-mark-1_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1528,10 +2073,41 @@ export const dataBase = {
                         "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-lord-lovats-commandos_a": {
                             "id": "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-lord-lovats-commandos_a",
                             "recruit": {
-                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-lord-lovats-commandos_b.png",
+                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-lord-lovats-commandos_a.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-lord-lovats-commandos_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/lovat_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/lovat_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/fire-team-01_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/fire-team-01_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/fire-team-01_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/fire-team-01_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/support-team_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/support-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/mortar-team_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/mortar-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1561,7 +2137,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-option.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-option.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/infiltrated-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1587,7 +2170,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/sticky-bomb-option.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/sticky-bomb-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/sticky-bomb-option.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/sticky-bomb-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1613,7 +2203,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/knife-option.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/knife-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/knife-option.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/knife-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1639,7 +2236,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/ferocious-option.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/ferocious-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/ferocious-option.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/ferocious-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1666,10 +2270,17 @@ export const dataBase = {
                         "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-bazooka-option_a": {
                             "id": "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-bazooka-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka-option_b.png",
+                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka-option_a.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/bazooka_a.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/6-pounder-at-gun_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1692,10 +2303,17 @@ export const dataBase = {
                         "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-vickers-mg-option_a": {
                             "id": "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-vickers-mg-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/vickers-mg-option_b.png",
+                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/vickers-mg-option_a.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/vickers-mg-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/vickers_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/vickers_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1722,10 +2340,17 @@ export const dataBase = {
                         "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-mad-jack-churchill_a": {
                             "id": "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-mad-jack-churchill_a",
                             "recruit": {
-                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-mad-jack-churchill_b.png",
+                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-mad-jack-churchill_a.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-mad-jack-churchill_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/mad-jack_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/mad-jack_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1748,10 +2373,17 @@ export const dataBase = {
                         "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-bill-millin_a": {
                             "id": "HoN-v1-lord-lovat_s-commandos-cw-lord-lovats-commandos-recruitment-tile-bill-millin_a",
                             "recruit": {
-                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-bill-millin_b.png",
+                                "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-bill-millin_a.png",
                                 "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/recruitment-tile-bill-millin_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/millin_a.png",
+                                        "back": "res/HoN-v1/lord-lovat_s-commandos/cw/lord-lovats-commandos/millin_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1782,10 +2414,41 @@ export const dataBase = {
                         "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-recruitment-tile_a": {
                             "id": "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/officer_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/fire-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/2-inch-mortar_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/2-inch-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -1815,7 +2478,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/woddsmen-option.png",
                                 "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/woddsmen-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/woddsmen-option.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/woddsmen-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1842,10 +2512,29 @@ export const dataBase = {
                         "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-mechanized-piat_a": {
                             "id": "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-mechanized-piat_a",
                             "recruit": {
-                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-piat_b.png",
+                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-piat_a.png",
                                 "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-piat_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/m-3a1-halftrack-02.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/m-3a1-halftrack-01_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/piat_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/piat_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1868,10 +2557,29 @@ export const dataBase = {
                         "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-mechanized-bren_a": {
                             "id": "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-mechanized-bren_a",
                             "recruit": {
-                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-bren_b.png",
+                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-bren_a.png",
                                 "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/mechanized-bren_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/m-3a1-halftrack-02.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/m-3a1-halftrack-01_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1898,10 +2606,29 @@ export const dataBase = {
                         "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-bren-platoon_a": {
                             "id": "HoN-v1-royal-winnipeg-rifles-cw-royal-winnipeg-rifles-bren-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren-platoon_b.png",
+                                "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren-platoon_a.png",
                                 "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/leader-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/fire-team_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_a.png",
+                                        "back": "res/HoN-v1/royal-winnipeg-rifles/cw/royal-winnipeg-rifles/bren_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1934,7 +2661,7 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-command-recruitment-tile-divisionsstab_a": {
                             "id": "HoN-v1-army-box-ge-ge-command-recruitment-tile-divisionsstab_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/command/recruitment-tile-divisionsstab_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/command/recruitment-tile-divisionsstab_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/recruitment-tile-divisionsstab_b.png"
                             },
                             "contents": [],
@@ -1967,7 +2694,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-airstrike-x1.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-airstrike-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-airstrike-x1.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-airstrike-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -1993,7 +2727,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-directive-x1.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-directive-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-directive-x1.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-directive-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2019,7 +2760,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-planning.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-planning.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-planning.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-planning.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2045,7 +2793,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-smoke.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-smoke.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-smoke.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-smoke.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2073,7 +2828,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-field-artillery-x3.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-field-artillery-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-field-artillery-x3.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-field-artillery-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2099,7 +2861,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-guardian.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-guardian.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-guardian.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-guardian.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2125,7 +2894,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-battle-plan.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-battle-plan.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-battle-plan.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-battle-plan.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2151,7 +2927,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-directive-x3.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-directive-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-directive-x3.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-directive-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2177,7 +2960,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/command/option-improvisation.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-improvisation.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/option-improvisation.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/option-improvisation.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2204,10 +2994,29 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-command-option-granatwerfer-gruppe_a": {
                             "id": "HoN-v1-army-box-ge-ge-command-option-granatwerfer-gruppe_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/command/option-granatwerfer-gruppe_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/command/option-granatwerfer-gruppe_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/command/option-granatwerfer-gruppe_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/8cm-grantwerfer-34_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/8cm-grantwerfer-34_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/8cm-grantwerfer-34_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/8cm-grantwerfer-34_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/command/g-braun_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/command/g-braun_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2236,10 +3045,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-generic-recruitment-tile-fritz_a": {
                             "id": "HoN-v1-army-box-ge-ge-generic-recruitment-tile-fritz_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/generic/recruitment-tile-fritz_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/generic/recruitment-tile-fritz_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/generic/recruitment-tile-fritz_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/generic/fritz.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/generic/fritz.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2269,7 +3085,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/generic/option-sharpshooters.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/generic/option-sharpshooters.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/generic/option-sharpshooters.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/generic/option-sharpshooters.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2297,7 +3120,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/generic/option-magnetic-mine.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/generic/option-magnetic-mine.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/generic/option-magnetic-mine.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/generic/option-magnetic-mine.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2324,10 +3154,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-generic-option-sd-kfz-251-1_a": {
                             "id": "HoN-v1-army-box-ge-ge-generic-option-sd-kfz-251-1_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/generic/option-sd-kfz-251-1_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/generic/option-sd-kfz-251-1_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/generic/option-sd-kfz-251-1_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/generic/sd-kfz-251-1_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/generic/sd-kfz-251-1_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2356,10 +3193,23 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzer-gruppe-recruitment-tile-panzergruppe_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzer-gruppe-recruitment-tile-panzergruppe_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/recruitment-tile-panzergruppe_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/recruitment-tile-panzergruppe_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/recruitment-tile-panzergruppe_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv-cmd_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv-cmd_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panzer-iv_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -2389,7 +3239,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-fuel.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-fuel.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-fuel.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-fuel.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2415,7 +3272,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-apc-shell.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-apc-shell.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-apc-shell.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-apc-shell.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2442,10 +3306,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzer-gruppe-option-panther-a_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzer-gruppe-option-panther-a_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-panther-a_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-panther-a_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-panther-a_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panther-ausf-a_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/panther-ausf-a_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2468,10 +3339,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzer-gruppe-option-stug-iv_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzer-gruppe-option-stug-iv_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-01_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-01_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2494,10 +3372,23 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzer-gruppe-option-stug-iv-group_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzer-gruppe-option-stug-iv-group_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv-group_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv-group_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/option-stug-iv-group_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-01_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-01_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-02_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzer-gruppe/stug-iv-02_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2526,10 +3417,35 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzergrenadiere-recruitment-tile-panzergrenadiere_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzergrenadiere-recruitment-tile-panzergrenadiere_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recruitment-tile-panzergrenadiere_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recruitment-tile-panzergrenadiere_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recruitment-tile-panzergrenadiere_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/von-haeften_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/von-haeften_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -2556,10 +3472,29 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzergrenadiere-option-panzergrenadiere_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzergrenadiere-option-panzergrenadiere_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-panzergrenadiere_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-panzergrenadiere_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-panzergrenadiere_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2582,10 +3517,29 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzergrenadiere-option-support-group_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzergrenadiere-option-support-group_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-support-group_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-support-group_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-support-group_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/mg-42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2608,10 +3562,29 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-panzergrenadiere-option-ambush-group_a": {
                             "id": "HoN-v1-army-box-ge-ge-panzergrenadiere-option-ambush-group_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-ambush-group_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-ambush-group_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/option-ambush-group_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/panzerschreck_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/panzerschreck_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2640,10 +3613,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-sturmpioniere-recruitment-tile-oros-snowt_a": {
                             "id": "HoN-v1-army-box-ge-ge-sturmpioniere-recruitment-tile-oros-snowt_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-oros-snowt_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-oros-snowt_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-oros-snowt_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/o-snowt_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/o-snowt_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2670,10 +3650,35 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-sturmpioniere-recruitment-tile-sturmpioniere_a": {
                             "id": "HoN-v1-army-box-ge-ge-sturmpioniere-recruitment-tile-sturmpioniere_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-sturmpioniere_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-sturmpioniere_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/recruitment-tile-sturmpioniere_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/officer_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/goliath_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/goliath_a.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/fire-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/mg-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/mg-group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -2703,7 +3708,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-tankbuster.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-tankbuster.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-tankbuster.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-tankbuster.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2729,7 +3741,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-goliath.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-goliath.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-goliath.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-goliath.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2755,7 +3774,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-ferocious.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-ferocious.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-ferocious.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-ferocious.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2781,7 +3807,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-position.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-position.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-position.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-position.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2807,7 +3840,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-demolition-charge.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-demolition-charge.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-demolition-charge.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-demolition-charge.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2834,10 +3874,17 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-sturmpioniere-option-schwimmwagen_a": {
                             "id": "HoN-v1-army-box-ge-ge-sturmpioniere-option-schwimmwagen_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-schwimmwagen_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-schwimmwagen_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-schwimmwagen_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/schwimmwagen_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/schwimmwagen_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2864,10 +3911,29 @@ export const dataBase = {
                         "HoN-v1-army-box-ge-ge-sturmpioniere-option-assault-group_a": {
                             "id": "HoN-v1-army-box-ge-ge-sturmpioniere-option-assault-group_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-assault-group_b.png",
+                                "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-assault-group_a.png",
                                 "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/option-assault-group_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/fire-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/mg-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/mg-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/sturmpioniere/flamer_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/sturmpioniere/flamer_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2901,7 +3967,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/carentan/ge/feldkommando/fortified-option.png",
                                 "back": "res/HoN-v1/carentan/ge/feldkommando/fortified-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/feldkommando/fortified-option.png",
+                                        "back": "res/HoN-v1/carentan/ge/feldkommando/fortified-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2930,10 +4003,17 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-options-sd-kfz-10-5-option_a": {
                             "id": "HoN-v1-carentan-ge-options-sd-kfz-10-5-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/options/sd-kfz-10-5-option_b.png",
+                                "front": "res/HoN-v1/carentan/ge/options/sd-kfz-10-5-option_a.png",
                                 "back": "res/HoN-v1/carentan/ge/options/sd-kfz-10-5-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/options/sd-kfz-10-5_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/options/sd-kfz-10-5_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2960,10 +4040,17 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-options-flak-38-quad-option_a": {
                             "id": "HoN-v1-carentan-ge-options-flak-38-quad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/options/flak-38-quad-option_b.png",
+                                "front": "res/HoN-v1/carentan/ge/options/flak-38-quad-option_a.png",
                                 "back": "res/HoN-v1/carentan/ge/options/flak-38-quad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/options/flak-38-quad.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -2986,10 +4073,29 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-options-recruitment-tile-osttruppen-battalion_a": {
                             "id": "HoN-v1-carentan-ge-options-recruitment-tile-osttruppen-battalion_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/options/recruitment-tile-osttruppen-battalion_b.png",
+                                "front": "res/HoN-v1/carentan/ge/options/recruitment-tile-osttruppen-battalion_a.png",
                                 "back": "res/HoN-v1/carentan/ge/options/recruitment-tile-osttruppen-battalion_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/options/osttruppen_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/options/osttruppen_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/options/osttruppen_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/options/osttruppen_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/options/osttruppen_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/options/osttruppen_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3018,10 +4124,35 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-grenadiere-regiment-recruitment-tile-grenadier-regiment-1058_a": {
                             "id": "HoN-v1-carentan-ge-grenadiere-regiment-recruitment-tile-grenadier-regiment-1058_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/recruitment-tile-grenadier-regiment-1058_b.png",
+                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/recruitment-tile-grenadier-regiment-1058_a.png",
                                 "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/recruitment-tile-grenadier-regiment-1058_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/offier_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/offier_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg-42_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg-42_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3048,10 +4179,35 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-grenadiere-regiment-panzerschreck-group-option_a": {
                             "id": "HoN-v1-carentan-ge-grenadiere-regiment-panzerschreck-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/panzerschreck-group-option_b.png",
+                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/panzerschreck-group-option_a.png",
                                 "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/panzerschreck-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/panzerschreck.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/legrw-36_b.png",
+                                        "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/legrw-36_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3074,10 +4230,29 @@ export const dataBase = {
                         "HoN-v1-carentan-ge-grenadiere-regiment-mg42-group-option_a": {
                             "id": "HoN-v1-carentan-ge-grenadiere-regiment-mg42-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg42-group-option_b.png",
+                                "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg42-group-option_a.png",
                                 "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg42-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg-42_a.png",
+                                        "back": "res/HoN-v1/carentan/ge/grenadiere-regiment/mg-42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3108,10 +4283,29 @@ export const dataBase = {
                         "HoN-v1-civilians-under-fire-ge-gestapo-recruitment-tile-ilda_a": {
                             "id": "HoN-v1-civilians-under-fire-ge-gestapo-recruitment-tile-ilda_a",
                             "recruit": {
-                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/recruitment-tile-ilda_b.png",
+                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/recruitment-tile-ilda_a.png",
                                 "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/recruitment-tile-ilda_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/ilda_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/ilda_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/leibwachter_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/leibwachter_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/mercedez-benz_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/mercedez-benz_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -3138,10 +4332,17 @@ export const dataBase = {
                         "HoN-v1-civilians-under-fire-ge-gestapo-option-opel-blitz_a": {
                             "id": "HoN-v1-civilians-under-fire-ge-gestapo-option-opel-blitz_a",
                             "recruit": {
-                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-opel-blitz_b.png",
+                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-opel-blitz_a.png",
                                 "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-opel-blitz_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/opel-blitz_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/opel-blitz_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3168,10 +4369,29 @@ export const dataBase = {
                         "HoN-v1-civilians-under-fire-ge-gestapo-option-untersuchung_a": {
                             "id": "HoN-v1-civilians-under-fire-ge-gestapo-option-untersuchung_a",
                             "recruit": {
-                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-untersuchung_b.png",
+                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-untersuchung_a.png",
                                 "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-untersuchung_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/inspektor_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/inspektor_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3194,10 +4414,29 @@ export const dataBase = {
                         "HoN-v1-civilians-under-fire-ge-gestapo-option-hundestaffel_a": {
                             "id": "HoN-v1-civilians-under-fire-ge-gestapo-option-hundestaffel_a",
                             "recruit": {
-                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-hundestaffel_b.png",
+                                "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-hundestaffel_a.png",
                                 "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/option-hundestaffel_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/bluthund_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/bluthund_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/dogs_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/dogs_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_a.png",
+                                        "back": "res/HoN-v1/civilians-under-fire/ge/gestapo/gestapo_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3228,10 +4467,35 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-festungskompagnie-recruitment-tile_a": {
                             "id": "HoN-v1-d-day-ge-festungskompagnie-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/d-day/ge/festungskompagnie/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/officer_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/gunners.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -3261,7 +4525,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/ge/festungskompagnie/ammo-belt-option.png",
                                 "back": "res/HoN-v1/d-day/ge/festungskompagnie/ammo-belt-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/ammo-belt-option.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/ammo-belt-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3288,10 +4559,29 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-festungskompagnie-mortar-group-option_a": {
                             "id": "HoN-v1-d-day-ge-festungskompagnie-mortar-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/mortar-group-option_b.png",
+                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/mortar-group-option_a.png",
                                 "back": "res/HoN-v1/d-day/ge/festungskompagnie/mortar-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/gunners.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/8cm-granatwerfer_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/8cm-granatwerfer_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3314,10 +4604,29 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-festungskompagnie-defense-group-option_a": {
                             "id": "HoN-v1-d-day-ge-festungskompagnie-defense-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/defense-group-option_b.png",
+                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/defense-group-option_a.png",
                                 "back": "res/HoN-v1/d-day/ge/festungskompagnie/defense-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/gunners.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3340,10 +4649,29 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-festungskompagnie-hmg-42-group-option_a": {
                             "id": "HoN-v1-d-day-ge-festungskompagnie-hmg-42-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/hmg-42-group-option_b.png",
+                                "front": "res/HoN-v1/d-day/ge/festungskompagnie/hmg-42-group-option_a.png",
                                 "back": "res/HoN-v1/d-day/ge/festungskompagnie/hmg-42-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/mg42-hmg_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/festungskompagnie/gunners.png",
+                                        "back": "res/HoN-v1/d-day/ge/festungskompagnie/gunners.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3372,10 +4700,17 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-generic-artillery-spotter-option_a": {
                             "id": "HoN-v1-d-day-ge-generic-artillery-spotter-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/generic/artillery-spotter-option_b.png",
+                                "front": "res/HoN-v1/d-day/ge/generic/artillery-spotter-option_a.png",
                                 "back": "res/HoN-v1/d-day/ge/generic/artillery-spotter-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/generic/artillery-spotter-option_a.png",
+                                        "back": "res/HoN-v1/d-day/ge/generic/artillery-spotter-option_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3402,10 +4737,17 @@ export const dataBase = {
                         "HoN-v1-d-day-ge-generic-7-5cm-ig-18-gun-option_a": {
                             "id": "HoN-v1-d-day-ge-generic-7-5cm-ig-18-gun-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/ge/generic/7-5cm-ig-18-gun-option_b.png",
+                                "front": "res/HoN-v1/d-day/ge/generic/7-5cm-ig-18-gun-option_a.png",
                                 "back": "res/HoN-v1/d-day/ge/generic/7-5cm-ig-18-gun-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/ge/generic/7-5cm-ig-18-gun.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3436,10 +4778,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-ge-generic-puma-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-ge-generic-puma-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/puma-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/puma-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/puma-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/puma_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/puma_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3462,10 +4811,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-ge-generic-panzer-ii-luchs-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-ge-generic-panzer-ii-luchs-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/panzer-ii-luchs-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/panzer-ii-luchs-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/panzer-ii-luchs-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/panzer-ii-luchs_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/panzer-ii-luchs_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3488,10 +4844,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-ge-generic-flammpanzerwagen-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-ge-generic-flammpanzerwagen-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flammpanzerwagen-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flammpanzerwagen-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flammpanzerwagen-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flammpanzerwagen_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flammpanzerwagen_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3518,10 +4881,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-ge-generic-flak-38-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-ge-generic-flak-38-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3555,7 +4925,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-small.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-small.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-small.png",
+                                        "back": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-small.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3581,7 +4958,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-large.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-large.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-large.png",
+                                        "back": "res/HoN-v1/gazette-1/ge/generic/recruitment-tile-minefield-large.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3608,10 +4992,17 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-10-5-cm-lefh18-option_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-10-5-cm-lefh18-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/10-5-cm-lefh18-option_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/10-5-cm-lefh18-option_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/10-5-cm-lefh18-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/10-5-cm-lefh-18.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3634,10 +5025,23 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-minensucher-option_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-minensucher-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/minensucher-option_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/minensucher-option_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/minensucher-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/minensucher.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/minensucher.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3660,10 +5064,17 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-minesweepers-cw-option_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-minesweepers-cw-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-cw-option_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-cw-option_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/minesweepers-cw-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-cw.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3686,10 +5097,17 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-75mm-pack-howitzer-m8-option-us_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-75mm-pack-howitzer-m8-option-us_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-us_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-us_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-us_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-us.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3712,10 +5130,17 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-57mm-at-gun-option_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-57mm-at-gun-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/57mm-at-gun-option_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/57mm-at-gun-option_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/57mm-at-gun-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/57mm-at-gun.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/ge/generic/flak-38_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3738,10 +5163,23 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-minesweepers-us-option_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-minesweepers-us-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us-option_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us-option_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us.png",
+                                        "back": "res/HoN-v1/gazette-1/ge/generic/minesweepers-us.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3768,10 +5206,17 @@ export const dataBase = {
                         "HoN-v1-gazette-1-ge-generic-75mm-pack-howitzer-m8-option-cw_a": {
                             "id": "HoN-v1-gazette-1-ge-generic-75mm-pack-howitzer-m8-option-cw_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-cw_b.png",
+                                "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-cw_a.png",
                                 "back": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-option-cw_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-1/ge/generic/75mm-pack-howitzer-m8-cw.png",
+                                        "back": "res/HoN-v1/east-yorkshire-regiment/cw/east-yorkshire-regiment/6-pounder-at-gun_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3802,10 +5247,35 @@ export const dataBase = {
                         "HoN-v1-gazette-8-ge-recruitment-reserve-gebirgsjager-regiment-recruitment-reserve-gebirgsjager-regiment-1_a": {
                             "id": "HoN-v1-gazette-8-ge-recruitment-reserve-gebirgsjager-regiment-recruitment-reserve-gebirgsjager-regiment-1_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/recruitment-reserve-gebirgsjager-regiment-1_b.png",
+                                "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/recruitment-reserve-gebirgsjager-regiment-1_a.png",
                                 "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/recruitment-reserve-gebirgsjager-regiment-1_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/schwehr_a.png",
+                                        "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/schwehr_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/legrw-36_a.png",
+                                        "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/legrw-36_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/fire-group_a.png",
+                                        "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/fire-group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -3832,10 +5302,29 @@ export const dataBase = {
                         "HoN-v1-gazette-8-ge-recruitment-reserve-gebirgsjager-regiment-option-gebirgsjager_a": {
                             "id": "HoN-v1-gazette-8-ge-recruitment-reserve-gebirgsjager-regiment-option-gebirgsjager_a",
                             "recruit": {
-                                "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/option-gebirgsjager_b.png",
+                                "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/option-gebirgsjager_a.png",
                                 "back": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/option-gebirgsjager_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/recon-group.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/recon-group.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/gazette-8/ge/recruitment-reserve-gebirgsjager-regiment/mg-group.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3866,10 +5355,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-feldkommando-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-ge-feldkommando-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/feldkommando/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/feldkommando/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/feldkommando/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/officer_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -3899,7 +5395,20 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/feldkommando/concealed_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/feldkommando/concealed_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_a_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_a_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_b_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/concealed_unit_b_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3925,7 +5434,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/feldkommando/bluff_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/feldkommando/bluff_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/bluff_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/bluff_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3951,7 +5467,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/feldkommando/planning_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/feldkommando/planning_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/planning_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/planning_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -3977,7 +5500,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/feldkommando/mg_nest_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/feldkommando/mg_nest_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/feldkommando/mg_nest.png",
+                                        "back": "res/HoN-v1/hon-core/ge/feldkommando/mg_nest_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4006,10 +5536,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-recruitment_tile_helmut_a": {
                             "id": "HoN-v1-hon-core-ge-generic-recruitment_tile_helmut_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_helmut_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_helmut_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_helmut_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/helmut_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/helmut_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4032,10 +5569,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-recruitment_tile_ludwig_a": {
                             "id": "HoN-v1-hon-core-ge-generic-recruitment_tile_ludwig_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_ludwig_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_ludwig_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_ludwig_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/ludwig_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/ludwig_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4058,10 +5602,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-recruitment_tile_otto_a": {
                             "id": "HoN-v1-hon-core-ge-generic-recruitment_tile_otto_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_otto_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_otto_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/recruitment_tile_otto_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/otto_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/otto_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4091,7 +5642,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/generic/panzerfaust_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/panzerfaust_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/panzerfaust_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/panzerfaust_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4117,7 +5675,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/generic/veteran_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/veteran_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/veteran_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/veteran_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4143,7 +5708,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/generic/grenade_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/grenade_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/grenade_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/grenade_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4169,7 +5741,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/ge/generic/ammo_option.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/ammo_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/ammo_option.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/ammo_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4196,10 +5775,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-puma_option_a": {
                             "id": "HoN-v1-hon-core-ge-generic-puma_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/puma_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/puma_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/puma_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/puma_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/puma_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4222,10 +5808,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-panzer_luchs_option_a": {
                             "id": "HoN-v1-hon-core-ge-generic-panzer_luchs_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/panzer_luchs_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/panzer_luchs_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/panzer_luchs_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/panzer_luchs_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/panzer_luchs_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4248,10 +5841,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-zundapp_option_a": {
                             "id": "HoN-v1-hon-core-ge-generic-zundapp_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/zundapp_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/zundapp_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/zundapp_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/zundapp_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/helmut_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4274,10 +5874,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-panzer_iv_option_a": {
                             "id": "HoN-v1-hon-core-ge-generic-panzer_iv_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/panzer_iv_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/panzer_iv_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/panzer_iv_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/panzer_iv_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/panzer_iv_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4304,10 +5911,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-generic-pak40_option_a": {
                             "id": "HoN-v1-hon-core-ge-generic-pak40_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/generic/pak40_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/generic/pak40_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/generic/pak40_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/generic/pak40_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/generic/pak40_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4336,10 +5950,35 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-901-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-901-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_a.png",
+                                        "back": "res/HoN-v1/army-box-ge/ge/panzergrenadiere/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -4366,10 +6005,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-901-panzergrenadiere_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-901-panzergrenadiere_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzergrenadiere_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzergrenadiere_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzergrenadiere_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recon_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/recon_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4392,10 +6050,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-901-panzerschreck_group_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-901-panzerschreck_group_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_group_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_group_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_group_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/panzerschreck_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4418,10 +6095,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-901-assault_group_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-901-assault_group_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/assault_group_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/assault_group_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/assault_group_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-901/mg42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4450,10 +6146,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-902-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-902-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/officer_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -4480,10 +6183,23 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-902-mechanisierte_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-902-mechanisierte_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/mechanisierte_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/mechanisierte_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/mechanisierte_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/halftrack_2_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/halftrack_2_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/halftrack_1_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/halftrack_1_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4510,10 +6226,23 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-902-panzerschreck_group_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-902-panzerschreck_group_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzerschreck_group_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzerschreck_group_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzerschreck_group_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/fire_group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4536,10 +6265,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-ge-panzergrenadiere-902-panzergrenadiere_option_a": {
                             "id": "HoN-v1-hon-core-ge-panzergrenadiere-902-panzergrenadiere_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzergrenadiere_option_b.png",
+                                "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzergrenadiere_option_a.png",
                                 "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/panzergrenadiere_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/recon_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/fire_group_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/fire_group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/mg42_a.png",
+                                        "back": "res/HoN-v1/hon-core/ge/panzergrenadiere-902/mg42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4570,10 +6318,17 @@ export const dataBase = {
                         "HoN-v1-karl-von-croc-ge-generic-recruitment-tile_a": {
                             "id": "HoN-v1-karl-von-croc-ge-generic-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/karl-von-croc/ge/generic/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/karl-von-croc/ge/generic/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/karl-von-croc/ge/generic/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/karl-von-croc/ge/generic/croc_a.png",
+                                        "back": "res/HoN-v1/karl-von-croc/ge/generic/croc_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4604,10 +6359,17 @@ export const dataBase = {
                         "HoN-v1-promo-heroes-2014-ge-generic-recruitment-tile-siegfried_a": {
                             "id": "HoN-v1-promo-heroes-2014-ge-generic-recruitment-tile-siegfried_a",
                             "recruit": {
-                                "front": "res/HoN-v1/promo-heroes-2014/ge/generic/recruitment-tile-siegfried_b.png",
+                                "front": "res/HoN-v1/promo-heroes-2014/ge/generic/recruitment-tile-siegfried_a.png",
                                 "back": "res/HoN-v1/promo-heroes-2014/ge/generic/recruitment-tile-siegfried_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/promo-heroes-2014/ge/generic/siegfried_a.png",
+                                        "back": "res/HoN-v1/promo-heroes-2014/ge/generic/siegfried_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4638,10 +6400,17 @@ export const dataBase = {
                         "18493020013455803952FBB636DB8C481E3C6FECD4C2D9461DA42D1898E": {
                             "id": "18493020013455803952FBB636DB8C481E3C6FECD4C2D9461DA42D1898E",
                             "recruit": {
-                                "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-option_b",
+                                "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-option_a",
                                 "back": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-option_b"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-01_a",
+                                        "back": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-01_b"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4664,10 +6433,23 @@ export const dataBase = {
                         "1849302001345587180A1D20B7FD6C6F198A9C135F8D18063F1C2C9AC60": {
                             "id": "1849302001345587180A1D20B7FD6C6F198A9C135F8D18063F1C2C9AC60",
                             "recruit": {
-                                "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-x2-option_b",
+                                "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-x2-option_a",
                                 "back": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-x2-option_b"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-02_a",
+                                        "back": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-02_b"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-03_a",
+                                        "back": "res/HoN-v1/sainte-m\u00e8re-eglise/ge/generic/beutepanzer-r35-03_b"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4698,10 +6480,17 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-recruitment-tile-von-kamptz_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-recruitment-tile-von-kamptz_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile-von-kamptz_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile-von-kamptz_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile-von-kamptz_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/von-kampts_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/von-kampts_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4728,10 +6517,35 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-recruitment-tile_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/officer_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-mg-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-mg-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-250-1-01.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -4761,7 +6575,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/bloodthirsty-option.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/bloodthirsty-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/bloodthirsty-option.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/bloodthirsty-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4788,10 +6609,17 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-stummel-option_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-stummel-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/stummel-option_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/stummel-option_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/stummel-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-251-9-stummel_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-251-9-stummel_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4814,10 +6642,17 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-schwimmwagen_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-schwimmwagen_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/schwimmwagen_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/schwimmwagen_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/schwimmwagen_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/shwimmwagen_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/shwimmwagen_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4840,10 +6675,29 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-ss-assault-group-option_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-ss-assault-group-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-assault-group-option_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-assault-group-option_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-assault-group-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-250-1-02.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-250-1-rear.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-mg-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-mg-group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4866,10 +6720,29 @@ export const dataBase = {
                         "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-ss-panzergrenadiere-option_a": {
                             "id": "HoN-v1-ss-panzergrenadiere-ge-ss-panzergrenadiere-ss-panzergrenadiere-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-panzergrenadiere-option_b.png",
+                                "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-panzergrenadiere-option_a.png",
                                 "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-panzergrenadiere-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-250-1-02.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/sd-kfz-250-1-rear.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_a.png",
+                                        "back": "res/HoN-v1/ss-panzergrenadiere/ge/ss-panzergrenadiere/ss-fire-group_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4900,10 +6773,41 @@ export const dataBase = {
                         "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-recruitment-tile_a": {
                             "id": "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/fire-group_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/fire-group_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/fire-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/steiner_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/steiner_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recon-group_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/recon-group_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg-42_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg-42_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 3,
                                 "M2": 1,
@@ -4933,7 +6837,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/guardian-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/guardian-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/guardian-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/guardian-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4959,7 +6870,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/planning-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/planning-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/planning-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/planning-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -4985,7 +6903,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/heroic-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/heroic-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/heroic-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/heroic-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5011,7 +6936,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/veteran-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/veteran-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/veteran-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/veteran-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5037,7 +6969,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/trigger-happy-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/trigger-happy-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/trigger-happy-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/trigger-happy-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5063,7 +7002,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/gears-option.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/gears-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/gears-option.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/gears-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5090,10 +7036,17 @@ export const dataBase = {
                         "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-75cm-ig-18-gun-option_a": {
                             "id": "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-75cm-ig-18-gun-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun-option_b.png",
+                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun-option_a.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/75cm-ig-18-gun_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5116,10 +7069,17 @@ export const dataBase = {
                         "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-mg42-hmg-option_a": {
                             "id": "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-mg42-hmg-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg42-hmg-option_b.png",
+                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg42-hmg-option_a.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg42-hmg-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg42-hmg_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/mg42-hmg_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5142,10 +7102,17 @@ export const dataBase = {
                         "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-granatwerfer-8cm-option_a": {
                             "id": "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-granatwerfer-8cm-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/granatwerfer-8cm-option_b.png",
+                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/granatwerfer-8cm-option_a.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/granatwerfer-8cm-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/granatwerfer-8cm_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/granatwerfer-8cm_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5168,10 +7135,17 @@ export const dataBase = {
                         "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-panzerschreck-option_a": {
                             "id": "HoN-v1-steiner-kampfgruppe-ge-steiner-kampfgruppe-panzerschreck-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck-option_b.png",
+                                "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck-option_a.png",
                                 "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck_a.png",
+                                        "back": "res/HoN-v1/steiner-kampfgruppe/ge/steiner-kampfgruppe/panzerschreck_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5202,10 +7176,17 @@ export const dataBase = {
                         "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-recruitment-tile_a": {
                             "id": "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/m-wittmann_a.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/m-wittmann_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -5235,7 +7216,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/artillery-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/artillery-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/artillery-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/artillery-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5261,7 +7249,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/intrepid-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/intrepid-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/intrepid-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/intrepid-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5287,7 +7282,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/he-shell-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/he-shell-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/he-shell-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/he-shell-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5313,7 +7315,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/apc-shell-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/apc-shell-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/apc-shell-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/apc-shell-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5339,7 +7348,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/fuel-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/fuel-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/fuel-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/fuel-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5367,7 +7383,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/blitzkrieg-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/blitzkrieg-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/blitzkrieg-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/blitzkrieg-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5393,7 +7416,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/field-artillery-x2-option.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/field-artillery-x2-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/field-artillery-x2-option.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/field-artillery-x2-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5420,10 +7450,17 @@ export const dataBase = {
                         "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-tiger-i-option_a": {
                             "id": "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-tiger-i-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/tiger-i-option_b.png",
+                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/tiger-i-option_a.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/tiger-i-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/tiger-i_a.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/tiger-i_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5450,10 +7487,17 @@ export const dataBase = {
                         "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-88mm-flak-36-option_a": {
                             "id": "HoN-v1-wittmanns-tigers-ge-wittmanns-tigers-88mm-flak-36-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/88mm-flak-36-option_b.png",
+                                "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/88mm-flak-36-option_a.png",
                                 "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/88mm-flak-36-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/88mm-flak-36_a.png",
+                                        "back": "res/HoN-v1/wittmanns-tigers/ge/wittmanns-tigers/88mm-flak-36_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5486,7 +7530,7 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-command-recruitment-high-command_a": {
                             "id": "HoN-v1-army-box-us-us-command-recruitment-high-command_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/command/recruitment-high-command_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/command/recruitment-high-command_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/recruitment-high-command_b.png"
                             },
                             "contents": [],
@@ -5519,7 +7563,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-smoke-x3.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-smoke-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-smoke-x3.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-smoke-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5545,7 +7596,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-directive-x1.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-directive-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-directive-x1.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-directive-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5571,7 +7629,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-artillery-x1.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-artillery-x1.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-artillery-x1.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-artillery-x1.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5597,7 +7662,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-initiative.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-initiative.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-initiative.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-initiative.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5623,7 +7695,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-planning.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-planning.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-planning.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-planning.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5651,7 +7730,20 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/hidden-option.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/hidden-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/hidden-unit-a_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/hidden-unit-a_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/hidden-unit-b_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/hidden-unit-b_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5677,7 +7769,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-directive-x3.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-directive-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-directive-x3.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-directive-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5703,7 +7802,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-field-artillery-x3.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-field-artillery-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-field-artillery-x3.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-field-artillery-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5729,7 +7835,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-battle-plan.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-battle-plan.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-battle-plan.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-battle-plan.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5755,7 +7868,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/command/option-airstrike-x3.png",
                                 "back": "res/HoN-v1/army-box-us/us/command/option-airstrike-x3.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/command/option-airstrike-x3.png",
+                                        "back": "res/HoN-v1/army-box-us/us/command/option-airstrike-x3.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5784,10 +7904,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-generic-recruitment-sgt-bruno_a": {
                             "id": "HoN-v1-army-box-us-us-generic-recruitment-sgt-bruno_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/generic/recruitment-sgt-bruno_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/generic/recruitment-sgt-bruno_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/generic/recruitment-sgt-bruno_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/generic/bruno_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/generic/bruno_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5817,7 +7944,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/generic/sticky_bomb_option.png",
                                 "back": "res/HoN-v1/army-box-us/us/generic/sticky_bomb_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/generic/sticky_bomb_option.png",
+                                        "back": "res/HoN-v1/army-box-us/us/generic/sticky_bomb_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5843,7 +7977,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/generic/option-ammo-belt.png",
                                 "back": "res/HoN-v1/army-box-us/us/generic/option-ammo-belt.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/generic/option-ammo-belt.png",
+                                        "back": "res/HoN-v1/army-box-us/us/generic/option-ammo-belt.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5872,10 +8013,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-recon-platoon-recruitment-tile-kowalski_a": {
                             "id": "HoN-v1-army-box-us-us-recon-platoon-recruitment-tile-kowalski_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-kowalski_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-kowalski_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-kowalski_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/kowalski_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/kowalski_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5902,10 +8050,29 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-recon-platoon-recruitment-tile-recon-squadron_a": {
                             "id": "HoN-v1-army-box-us-us-recon-platoon-recruitment-tile-recon-squadron_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-recon-squadron_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-recon-squadron_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/recruitment-tile-recon-squadron_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/ridley_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/ridley_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/armored-utility-car-m20_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/armored-utility-car-m20_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5935,7 +8102,20 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-tricky.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/option-tricky.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/tricky_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/tricky_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/tricky_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/tricky_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5962,10 +8142,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-recon-platoon-option-recon-m20_a": {
                             "id": "HoN-v1-army-box-us-us-recon-platoon-option-recon-m20_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-m20_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-m20_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-m20_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/willys-50-cal_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/willys-50-cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -5992,10 +8179,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-recon-platoon-option-recon-bar_a": {
                             "id": "HoN-v1-army-box-us-us-recon-platoon-option-recon-bar_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bar_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bar_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bar_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/scout-bar_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/scout-bar_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6018,10 +8218,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-recon-platoon-option-recon-bazooka_a": {
                             "id": "HoN-v1-army-box-us-us-recon-platoon-option-recon-bazooka_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bazooka_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bazooka_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/recon-platoon/option-recon-bazooka_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/recon-platoon/scout-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/recon-platoon/scout-bazooka_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/brady_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6050,10 +8263,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-sherman-platoon-recruitment-tile-sherman-squadron_a": {
                             "id": "HoN-v1-army-box-us-us-sherman-platoon-recruitment-tile-sherman-squadron_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/recruitment-tile-sherman-squadron_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/recruitment-tile-sherman-squadron_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/recruitment-tile-sherman-squadron_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-cmd-m4.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-m4-destroyed.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-m4.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-m4-destroyed.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6083,7 +8309,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-apc-shells.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-apc-shells.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-apc-shells.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-apc-shells.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6109,7 +8342,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-ace-driver.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-ace-driver.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-ace-driver.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-ace-driver.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6135,7 +8375,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-he-shells.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-he-shells.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-he-shells.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-he-shells.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6162,10 +8409,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-sherman-platoon-option-m10-a1-squad_a": {
                             "id": "HoN-v1-army-box-us-us-sherman-platoon-option-m10-a1-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1-squad_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1-squad_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-01.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-destroyed.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-01.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-destroyed.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6188,10 +8448,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-sherman-platoon-option-sherman-76w_a": {
                             "id": "HoN-v1-army-box-us-us-sherman-platoon-option-sherman-76w_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-sherman-76w_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-sherman-76w_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-sherman-76w_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-76w_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/sherman-76w_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6214,10 +8481,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-sherman-platoon-option-m10-a1_a": {
                             "id": "HoN-v1-army-box-us-us-sherman-platoon-option-m10-a1_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/sherman-platoon/option-m10-a1_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-02.png",
+                                        "back": "res/HoN-v1/army-box-us/us/sherman-platoon/m10-a1-destroyed.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6246,10 +8520,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-recruitment-tile-sgt-brady_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-recruitment-tile-sgt-brady_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-sgt-brady_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-sgt-brady_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-sgt-brady_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/brady_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/brady_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6276,10 +8557,35 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-recruitment-tile-weapon-platoon_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-recruitment-tile-weapon-platoon_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-weapon-platoon_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-weapon-platoon_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/recruitment-tile-weapon-platoon_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/officer_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -6309,7 +8615,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-trigger-happy.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-trigger-happy.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-trigger-happy.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-trigger-happy.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6332,10 +8645,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-option-horn-of-plenty_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-option-horn-of-plenty_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-horn-of-plenty_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-horn-of-plenty_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-horn-of-plenty_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/horn-of-plenty_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/horn-of-plenty_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6362,10 +8682,17 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-option-ammo-bearer_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-option-ammo-bearer_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-ammo-bearer_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-ammo-bearer_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-ammo-bearer_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/ammo-bearers_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/ammo-bearers_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6390,10 +8717,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-option-mortar-squad_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-option-mortar-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-mortar-squad_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-mortar-squad_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-mortar-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/60mm-mortar_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6416,10 +8756,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-option-bazooka-squad_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-option-bazooka-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-bazooka-squad_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-bazooka-squad_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-bazooka-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6442,10 +8795,23 @@ export const dataBase = {
                         "HoN-v1-army-box-us-us-weapon-platoon-option-30-cal-squad_a": {
                             "id": "HoN-v1-army-box-us-us-weapon-platoon-option-30-cal-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-30-cal-squad_b.png",
+                                "front": "res/HoN-v1/army-box-us/us/weapon-platoon/option-30-cal-squad_a.png",
                                 "back": "res/HoN-v1/army-box-us/us/weapon-platoon/option-30-cal-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_a.png",
+                                        "back": "res/HoN-v1/army-box-us/us/weapon-platoon/30-cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6479,7 +8845,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/generic/heroic-option.png",
                                 "back": "res/HoN-v1/d-day/us/generic/heroic-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/generic/heroic-option.png",
+                                        "back": "res/HoN-v1/d-day/us/generic/heroic-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6508,10 +8881,35 @@ export const dataBase = {
                         "HoN-v1-d-day-us-us-combat-engineers-recruitment-tile_a": {
                             "id": "HoN-v1-d-day-us-us-combat-engineers-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/lt-ray_a.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/lt-ray_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/flamer.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_a.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_a.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -6541,7 +8939,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/us-combat-engineers/grapnel-option.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/grapnel-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/grapnel-option.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/grapnel-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6567,7 +8972,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/us-combat-engineers/position-option.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/position-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/position-option.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/position-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6593,7 +9005,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/us-combat-engineers/shovel-option.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/shovel-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/shovel-option.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/shovel-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6619,7 +9038,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/us-combat-engineers/explosives-m1-option.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/explosives-m1-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/explosives-m1-option.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/explosives-m1-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6645,7 +9071,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/d-day/us/us-combat-engineers/bangalore-option.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/bangalore-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/bangalore-option.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/bangalore-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6672,10 +9105,29 @@ export const dataBase = {
                         "HoN-v1-d-day-us-us-combat-engineers-assault-squad-option_a": {
                             "id": "HoN-v1-d-day-us-us-combat-engineers-assault-squad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/assault-squad-option_b.png",
+                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/assault-squad-option_a.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/assault-squad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_a.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/flamer.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/30-cal_b.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/30-cal_a.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6698,10 +9150,29 @@ export const dataBase = {
                         "HoN-v1-d-day-us-us-combat-engineers-support-squad-option_a": {
                             "id": "HoN-v1-d-day-us-us-combat-engineers-support-squad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/support-squad-option_b.png",
+                                "front": "res/HoN-v1/d-day/us/us-combat-engineers/support-squad-option_a.png",
                                 "back": "res/HoN-v1/d-day/us/us-combat-engineers/support-squad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_a.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/bazooka.png",
+                                        "back": "help"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/d-day/us/us-combat-engineers/30-cal_b.png",
+                                        "back": "res/HoN-v1/d-day/us/us-combat-engineers/30-cal_a.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6732,10 +9203,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-us-generic-willys-60mm-mortar-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-us-generic-willys-60mm-mortar-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/willys-60mm-mortar-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/willys-60mm-mortar-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/willys-60mm-mortar-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/willys-60mm-mortar_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/willys-60mm-mortar_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6758,10 +9236,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-us-generic-m16-mgmc-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-us-generic-m16-mgmc-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m16-mgmc-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m16-mgmc-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/m16-mgmc-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m16-mgmc_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/m16-mgmc_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6784,10 +9269,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-us-generic-greyhound-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-us-generic-greyhound-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/greyhound-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/greyhound-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/greyhound-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/greyhound_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/greyhound_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6812,10 +9304,17 @@ export const dataBase = {
                         "HoN-v1-extra-units-us-_-ge-us-generic-m8-scout-option_a": {
                             "id": "HoN-v1-extra-units-us-_-ge-us-generic-m8-scout-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m8-scout-option_b.png",
+                                "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m8-scout-option_a.png",
                                 "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/m8-scout-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/extra-units-us-_-ge/us/generic/m8-scout_a.png",
+                                        "back": "res/HoN-v1/extra-units-us-_-ge/us/generic/m8-scout_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6846,10 +9345,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-command-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-us-command-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/command/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/us/command/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/us/command/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/command/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/command/officer_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 0,
@@ -6879,7 +9385,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/command/bluff_option.png",
                                 "back": "res/HoN-v1/hon-core/us/command/bluff_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/command/bluff_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/command/bluff_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6905,7 +9418,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/command/improvisation_option.png",
                                 "back": "res/HoN-v1/hon-core/us/command/improvisation_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/command/improvisation_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/command/improvisation_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6931,7 +9451,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/command/airstrike_x1_option.png",
                                 "back": "res/HoN-v1/hon-core/us/command/airstrike_x1_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/command/airstrike_x1_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/command/airstrike_x1_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6957,7 +9484,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/command/planning_option.png",
                                 "back": "res/HoN-v1/hon-core/us/command/planning_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/command/planning_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/command/planning_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -6989,7 +9523,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/generic/rifle_grenade_option.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/rifle_grenade_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/rifle_grenade_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/rifle_grenade_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7015,7 +9556,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/generic/ammo_option.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/ammo_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/ammo_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/ammo_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7041,7 +9589,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/generic/hedgerow_cutter_option.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/hedgerow_cutter_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/hedgerow_cutter_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/hedgerow_cutter_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7067,7 +9622,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/generic/grenade_option.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/grenade_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/grenade_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/grenade_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7093,7 +9655,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/hon-core/us/generic/veteran_option.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/veteran_option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/veteran_option.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/veteran_option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7120,10 +9689,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-heroes-recruitment_tile_the_rock_a": {
                             "id": "HoN-v1-hon-core-us-heroes-recruitment_tile_the_rock_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_the_rock_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_the_rock_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/recruitment_tile_the_rock_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/the_rock_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/the_rock_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7146,10 +9722,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-heroes-recruitment_tile_clint_a": {
                             "id": "HoN-v1-hon-core-us-heroes-recruitment_tile_clint_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_clint_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_clint_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/recruitment_tile_clint_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/clint_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/clint_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7172,10 +9755,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-heroes-recruitment_tile_oddball_a": {
                             "id": "HoN-v1-hon-core-us-heroes-recruitment_tile_oddball_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_oddball_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/recruitment_tile_oddball_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/recruitment_tile_oddball_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/oddball_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/oddball_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7202,10 +9792,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-extra-units-willys_50cal_option_a": {
                             "id": "HoN-v1-hon-core-us-extra-units-willys_50cal_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/willys_50cal_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/willys_50cal_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/willys_50cal_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/willys_50cal_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/willys_50cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7228,10 +9825,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-extra-units-m8_greyhound_option_a": {
                             "id": "HoN-v1-hon-core-us-extra-units-m8_greyhound_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/m8_greyhound_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/m8_greyhound_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/m8_greyhound_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/m8_greyhound_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/m8_greyhound_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7256,10 +9860,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-extra-units-m5_stuart_option_a": {
                             "id": "HoN-v1-hon-core-us-extra-units-m5_stuart_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/m5_stuart_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/m5_stuart_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/m5_stuart_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/m5_stuart_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/m5_stuart_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7282,10 +9893,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-extra-units-sherman_m4_option_a": {
                             "id": "HoN-v1-hon-core-us-extra-units-sherman_m4_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/sherman_m4_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/sherman_m4_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/sherman_m4_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/sherman_m4_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/sherman_m4_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7312,10 +9930,17 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-extra-units-mortar_option_a": {
                             "id": "HoN-v1-hon-core-us-extra-units-mortar_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/generic/mortar_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/generic/mortar_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/generic/mortar_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/generic/mortar_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/generic/mortar_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7344,10 +9969,35 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-22nd-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-22nd-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/30cal_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/30cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -7374,10 +10024,23 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-22nd-mechanized_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-22nd-mechanized_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/mechanized_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/mechanized_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/mechanized_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/halftrack_1_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/halftrack_1_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/halftrack_1_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/halftrack_1_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7404,10 +10067,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-22nd-bazooka_squad_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-22nd-bazooka_squad_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_squad_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_squad_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_squad_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7430,10 +10112,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-22nd-rifle_squad_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-22nd-rifle_squad_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/rifle_squad_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/rifle_squad_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/rifle_squad_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recon_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/recon_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-22nd/support_team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7462,10 +10163,35 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-8th-recruitment_tile_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-8th-recruitment_tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recruitment_tile_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recruitment_tile_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recruitment_tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/officer_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -7492,10 +10218,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-8th-rifle_squad_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-8th-rifle_squad_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/rifle_squad_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/rifle_squad_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/rifle_squad_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/recon_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7518,10 +10263,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-8th-30cal_squad_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-8th-30cal_squad_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/30cal_squad_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/30cal_squad_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/30cal_squad_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/30cal_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/30cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7544,10 +10308,29 @@ export const dataBase = {
                         "HoN-v1-hon-core-us-rifle-platoon-8th-bazooka_squad_option_a": {
                             "id": "HoN-v1-hon-core-us-rifle-platoon-8th-bazooka_squad_option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_squad_option_b.png",
+                                "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_squad_option_a.png",
                                 "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_squad_option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/fire_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/support_team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_a.png",
+                                        "back": "res/HoN-v1/hon-core/us/rifle-platoon-8th/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7578,10 +10361,17 @@ export const dataBase = {
                         "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile-doc_a": {
                             "id": "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile-doc_a",
                             "recruit": {
-                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-doc_b.png",
+                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-doc_a.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-doc_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/doc_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/doc_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7604,10 +10394,17 @@ export const dataBase = {
                         "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile-jackson_a": {
                             "id": "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile-jackson_a",
                             "recruit": {
-                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-jackson_b.png",
+                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-jackson_a.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile-jackson_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/jackson_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/jackson_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7634,10 +10431,35 @@ export const dataBase = {
                         "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile_a": {
                             "id": "HoN-v1-miller_s-rangers-us-millers-rangers-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/miller_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/miller_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/support-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 1,
                                 "M2": 1,
@@ -7667,7 +10489,20 @@ export const dataBase = {
                                 "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-option.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-unit-a_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-unit-a_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-unit-b_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/infiltrated-unit-b_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7693,7 +10528,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/courageous-option.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/courageous-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/courageous-option.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/courageous-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7720,10 +10562,17 @@ export const dataBase = {
                         "HoN-v1-miller_s-rangers-us-millers-rangers-bazooka-option_a": {
                             "id": "HoN-v1-miller_s-rangers-us-millers-rangers-bazooka-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/bazooka-option_b.png",
+                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/bazooka-option_a.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/bazooka-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/bazooka.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7746,10 +10595,17 @@ export const dataBase = {
                         "HoN-v1-miller_s-rangers-us-millers-rangers-30cal-option_a": {
                             "id": "HoN-v1-miller_s-rangers-us-millers-rangers-30cal-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/30cal-option_b.png",
+                                "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/30cal-option_a.png",
                                 "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/30cal-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/30-cal_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/30-cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7780,10 +10636,17 @@ export const dataBase = {
                         "HoN-v1-promo-heroes-2014-us-generic-recruitment-tile-bill-furlong_a": {
                             "id": "HoN-v1-promo-heroes-2014-us-generic-recruitment-tile-bill-furlong_a",
                             "recruit": {
-                                "front": "res/HoN-v1/promo-heroes-2014/us/generic/recruitment-tile-bill-furlong_b.png",
+                                "front": "res/HoN-v1/promo-heroes-2014/us/generic/recruitment-tile-bill-furlong_a.png",
                                 "back": "res/HoN-v1/promo-heroes-2014/us/generic/recruitment-tile-bill-furlong_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/promo-heroes-2014/us/generic/bill.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7814,10 +10677,17 @@ export const dataBase = {
                         "HoN-v1-us-rangers-us-us-rangers-recruitment-tile-pepper_a": {
                             "id": "HoN-v1-us-rangers-us-us-rangers-recruitment-tile-pepper_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile-pepper_b.png",
+                                "front": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile-pepper_a.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile-pepper_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/pepper_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/pepper_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7844,10 +10714,35 @@ export const dataBase = {
                         "HoN-v1-us-rangers-us-us-rangers-recruitment-tile_a": {
                             "id": "HoN-v1-us-rangers-us-us-rangers-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/ace-parker_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/ace-parker_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/support-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -7877,7 +10772,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/us-rangers/us/us-rangers/gears-x5.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/gears-x5.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/gears-x5.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/gears-x5.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7904,10 +10806,29 @@ export const dataBase = {
                         "HoN-v1-us-rangers-us-us-rangers-rangers-squad_a": {
                             "id": "HoN-v1-us-rangers-us-us-rangers-rangers-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rangers/us/us-rangers/rangers-squad_b.png",
+                                "front": "res/HoN-v1/us-rangers/us/us-rangers/rangers-squad_a.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/rangers-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/support-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7930,10 +10851,29 @@ export const dataBase = {
                         "HoN-v1-us-rangers-us-us-rangers-support-squad_a": {
                             "id": "HoN-v1-us-rangers-us-us-rangers-support-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rangers/us/us-rangers/support-squad_b.png",
+                                "front": "res/HoN-v1/us-rangers/us/us-rangers/support-squad_a.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/support-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/support-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/30-cal_a.png",
+                                        "back": "res/HoN-v1/us-rangers/us/us-rangers/30-cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7956,10 +10896,29 @@ export const dataBase = {
                         "HoN-v1-us-rangers-us-us-rangers-ambush-squad_a": {
                             "id": "HoN-v1-us-rangers-us-us-rangers-ambush-squad_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rangers/us/us-rangers/ambush-squad_b.png",
+                                "front": "res/HoN-v1/us-rangers/us/us-rangers/ambush-squad_a.png",
                                 "back": "res/HoN-v1/us-rangers/us/us-rangers/ambush-squad_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_a.png",
+                                        "back": "res/HoN-v1/miller_s-rangers/us/millers-rangers/recon_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rangers/us/us-rangers/bazooka.png",
+                                        "back": "help"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -7990,10 +10949,35 @@ export const dataBase = {
                         "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-recruitment-tile_a": {
                             "id": "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-recruitment-tile_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recruitment-tile_b.png",
+                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recruitment-tile_a.png",
                                 "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recruitment-tile_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/officer_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/officer_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 1,
@@ -8020,10 +11004,17 @@ export const dataBase = {
                         "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-halftrack-option_a": {
                             "id": "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-halftrack-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/halftrack-option_b.png",
+                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/halftrack-option_a.png",
                                 "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/halftrack-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/halftrack_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/halftrack_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -8050,10 +11041,29 @@ export const dataBase = {
                         "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-ambush-squad-option_a": {
                             "id": "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-ambush-squad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/ambush-squad-option_b.png",
+                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/ambush-squad-option_a.png",
                                 "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/ambush-squad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/bazooka_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/bazooka_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -8076,10 +11086,29 @@ export const dataBase = {
                         "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-support-squad-option_a": {
                             "id": "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-support-squad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-squad-option_b.png",
+                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-squad-option_a.png",
                                 "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-squad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/30-cal_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/30-cal_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -8102,10 +11131,29 @@ export const dataBase = {
                         "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-rifle-squad-option_a": {
                             "id": "HoN-v1-us-rifle-platoon-12th-regiment-us-us-rifle-platoon-12th-regiment-rifle-squad-option_a",
                             "recruit": {
-                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/rifle-squad-option_b.png",
+                                "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/rifle-squad-option_a.png",
                                 "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/rifle-squad-option_b.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/recon-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/fire-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/fire-team_b.png"
+                                    }
+                                },
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_a.png",
+                                        "back": "res/HoN-v1/us-rifle-platoon-12th-regiment/us/us-rifle-platoon-12th-regiment/support-team_b.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,
@@ -8141,7 +11189,14 @@ export const dataBase = {
                                 "front": "res/HoN-v1/karl-von-croc/neutral/generic/geballte-ladung-option.png",
                                 "back": "res/HoN-v1/karl-von-croc/neutral/generic/geballte-ladung-option.png"
                             },
-                            "contents": [],
+                            "contents": [
+                                {
+                                    "recruit": {
+                                        "front": "res/HoN-v1/karl-von-croc/neutral/generic/geballte-ladung-option.png",
+                                        "back": "res/HoN-v1/karl-von-croc/neutral/generic/geballte-ladung-option.png"
+                                    }
+                                }
+                            ],
                             "available_slots": {
                                 "M1": 0,
                                 "M2": 0,

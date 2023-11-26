@@ -27,22 +27,12 @@ html body {
   padding: 2vh 5vw;
 }
 
-@media (min-width: 1200px) {
-  .section-container {
-    padding: 2% 25%;
-  }
-
-  .section-container-desk-wide {
-    padding: 2% 10% !important;
-  }
-}
-
 .air {
   height: min(16vh, 4rem);
 }
 
 html .h-screen {
-  height: clamp(85dvh, 85dvh, 250vh);
+  height: clamp(100dvh, 100dvh, 250vh);
 }
 
 /* General Section */
@@ -208,4 +198,52 @@ h6 {
 .btn-black:hover {
   background-color: var(--accent-bg-color);
   color: var(--main-bg-color);
+}
+
+/*-------------------------------------------------------------- # Recruiter Section --------------------------------------------------------------*/
+
+#recruiter,
+.platoon-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.platoon,
+.platoon-options-group {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.squad {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-recruit {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin: 10px;
+}
+
+.squad-img-box,
+.ft-img-box {
+  padding: 1px;
+  margin: 1px;
+}
+
+.main-recruit .squad-img-box {
+  flex: 1 100%;
+}
+
+.main-recruit .ft-img-box {
+  flex: 1;
+}
+.ft-img-box .small-img-box {
+  text-align: -webkit-center;
+  /* max-width: 135px; */
 }

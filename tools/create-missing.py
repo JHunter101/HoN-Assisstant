@@ -82,6 +82,9 @@ def generate_missing_data(folders, usedImages):
                                 blacklist[file_path] = True
 
                                 # Look for Backside
+                                if file_path[-6:-4] == "_b":
+                                    continue
+
                                 if file_path[-6:-4] == "_a":
                                     back_path = file_path[:-6] + "_b" + file_path[-4:]
                                     new_row["img_recruit_back"] = back_path
@@ -112,7 +115,7 @@ def main(toSearch, oldPath, newPath):
             "img_3",
             "img_3_back",
             "img_4",
-            "img_4_back.1",
+            "img_4_back",
             "img_5",
             "img_5_back",
         ]:

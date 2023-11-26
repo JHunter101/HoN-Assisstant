@@ -28,11 +28,10 @@ function getInputElementValue(id) {
     const inputElement = document.getElementById(id);
     return inputElement.value;
 }
-function getSelectElementValue(id) {
-    const inputElement = document.getElementById(id);
-    const selectedOptions = Array.from(inputElement.selectedOptions);
-    const values = selectedOptions.map((option) => option.value);
-    return values;
+function getSelectElementValues(id) {
+    const selectElement = document.getElementById(id);
+    const selectedOptions = Array.from(selectElement.selectedOptions).map((option) => option.value);
+    return selectedOptions;
 }
 function toggleAllWithClass(elem) {
     const clickedElement = document.getElementById(elem);
@@ -45,4 +44,28 @@ function toggleAllWithClass(elem) {
             toggle_elem(element.id);
         });
     }
+}
+function resetArmy() {
+    clearBox('builder');
+    const recruiter = document.getElementById('recruiter');
+    if (recruiter) {
+        recruiter.innerHTML = '';
+    }
+}
+function mergeNestedDictionaries(target, source) {
+    for (const key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+            if (target[key] &&
+                typeof target[key] === 'object' &&
+                !Array.isArray(target[key])) {
+                // If the property is a nested object, recursively merge
+                target[key] = mergeNestedDictionaries(target[key], source[key]);
+            }
+            else {
+                // Otherwise, assign the value directly
+                target[key] = source[key];
+            }
+        }
+    }
+    return target;
 }
