@@ -31,69 +31,93 @@
         </div>
         <div id="main-menu-settings">
           <div class="options-container wow fadeIn">
-            <form id="">
-              <label>Select Games:</label>
-              <select id="main-setting">
-                <option value="HoN-v1" selected>Heroes of Normandie v1</option>
-                <option value="HoN-v2" disabled>Heroes of Normandie v2</option>
-                <option value="HoS" disabled>Heroes of Stalingrad</option>
-                <option value="SoN" disabled>Shadows over Normandie</option>
-                <option value="HoBR" disabled>Heroes of Black Reach</option>
-              </select>
+            <form id="main-menu-form">
+              <div class="column">
+                <div class="form-select-single">
+                  <label>Select Game:</label>
+                  <select id="main-setting">
+                    <option value="HoN-v1" selected>
+                      Heroes of Normandie v1
+                    </option>
+                    <option value="HoN-v2" disabled>
+                      Heroes of Normandie v2
+                    </option>
+                    <option value="HoS" disabled>Heroes of Stalingrad</option>
+                    <option value="SoN" disabled>Shadows over Normandie</option>
+                    <option value="HoBR" disabled>Heroes of Black Reach</option>
+                  </select>
+                </div>
+                <div class="form-select-single">
+                  <label>Select Army:</label>
+                  <select id="army-setting">
+                    <option value="US" selected>US Army</option>
+                    <option value="GE">German Army</option>
+                    <option value="CW">Commonwealth Paratroopers</option>
+                    <option value="US-P" disabled>US Paratroopers</option>
+                    <option value="CW-P" disabled>
+                      Commonwealth Paratroopers
+                    </option>
+                  </select>
+                </div>
+                <div class="form-select-single">
+                  <label>Army Value Cap:</label>
+                  <select id="army-value">
+                    <option value="999999" selected>Unlimited Points</option>
+                    <option value="100" disabled>100 Points</option>
+                    <option value="150" disabled>150 Points</option>
+                    <option value="200" disabled>200 Points</option>
+                    <option value="250" disabled>250 Points</option>
+                    <option value="300" disabled>300 Points</option>
+                    <option value="350" disabled>350 Points</option>
+                    <option value="400" disabled>400 Points</option>
+                    <option value="450" disabled>450 Points</option>
+                    <option value="500" disabled>500 Points</option>
+                  </select>
+                </div>
+              </div>
 
-              <label>Select Expansions:</label>
-              <select id="boxes-setting" multiple>
-                <option value="hon-core">Heroes of Normandie Core</option>
-                <option value="army-box-cw">Army Box CW</option>
-                <option value="army-box-ge">Army Box GE</option>
-                <option value="army-box-us">Army Box US</option>
-                <option value="carentan">Carentan</option>
-                <option value="civilians-under-fire">
-                  Civilians Under Fire
-                </option>
-                <option value="d-day">D-Day</option>
-                <option value="east-yorkshire-regiment">
-                  East Yorkshire Regiment
-                </option>
-                <option value="extra-units-us-_-ge">Extra Units US/GE</option>
-                <option value="gazette-1">Gazette 1</option>
-                <option value="gazette-2">Gazette 2</option>
-                <option value="gazette-8">Gazette 8</option>
-                <option value="karl-von-croc">Karl von Croc</option>
-                <option value="lord-lovat_s-commandos">
-                  Lord Lovat's Commandos
-                </option>
-                <option value="miller_s-rangers">Miller's Rangers</option>
-                <option value="promo-heroes-2014">Promo Heroes 2014</option>
-                <option value="royal-winnipeg-rifles">
-                  Royal Winnipeg Rifles
-                </option>
-              </select>
-              <label>Select Army:</label>
-              <select id="army-setting">
-                <option value="US" selected>US Army</option>
-                <option value="GE">German Army</option>
-                <option value="CW">Commonwealth Paratroopers</option>
-                <option value="US-P" disabled>US Paratroopers</option>
-                <option value="CW-P" disabled>Commonwealth Paratroopers</option>
-              </select>
-              <label>Army Value Cap:</label>
-              <select id="army-value">
-                <option value="999999" selected>Unlimited Points</option>
-                <option value="100" disabled>100 Points</option>
-                <option value="150" disabled>150 Points</option>
-                <option value="200" disabled>200 Points</option>
-                <option value="250" disabled>250 Points</option>
-                <option value="300" disabled>300 Points</option>
-                <option value="350" disabled>350 Points</option>
-                <option value="400" disabled>400 Points</option>
-                <option value="450" disabled>450 Points</option>
-                <option value="500" disabled>500 Points</option>
-              </select>
-              <label>Other Restrictions:</label>
-              <select id="other-restrictions" multiple>
-                <option value="no-vehic" disabled>No Vehicles</option>
-              </select>
+              <div class="column">
+                <div class="form-select-multiple">
+                  <label>Select Expansions:</label>
+                  <select id="boxes-setting" multiple>
+                    <option value="hon-core">Heroes of Normandie Core</option>
+                    <option value="army-box-cw">Army Box CW</option>
+                    <option value="army-box-ge">Army Box GE</option>
+                    <option value="army-box-us">Army Box US</option>
+                    <option value="carentan">Carentan</option>
+                    <option value="civilians-under-fire">
+                      Civilians Under Fire
+                    </option>
+                    <option value="d-day">D-Day</option>
+                    <option value="east-yorkshire-regiment">
+                      East Yorkshire Regiment
+                    </option>
+                    <option value="extra-units-us-_-ge">
+                      Extra Units US/GE
+                    </option>
+                    <option value="gazette-1">Gazette 1</option>
+                    <option value="gazette-2">Gazette 2</option>
+                    <option value="gazette-8">Gazette 8</option>
+                    <option value="karl-von-croc">Karl von Croc</option>
+                    <option value="lord-lovat_s-commandos">
+                      Lord Lovat's Commandos
+                    </option>
+                    <option value="miller_s-rangers">Miller's Rangers</option>
+                    <option value="promo-heroes-2014">Promo Heroes 2014</option>
+                    <option value="royal-winnipeg-rifles">
+                      Royal Winnipeg Rifles
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="column">
+                <div class="form-select-multiple">
+                  <label>Other Restrictions:</label>
+                  <select id="other-restrictions" multiple>
+                    <option value="no-vehic" disabled>No Vehicles</option>
+                  </select>
+                </div>
+              </div>
             </form>
           </div>
         </div>

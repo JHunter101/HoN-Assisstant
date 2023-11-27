@@ -101,28 +101,34 @@ def generate_missing_data(folders, usedImages):
     return df
 
 
-def main(toSearch, oldPath, newPath):
-    oldData = pd.read_csv(oldPath)
+def main(toSearch, oldPath, newPath, skipOld=False):
     usedImages = {}
-    for index, row in oldData.iterrows():
-        for item in [
-            "img_recruit",
-            "img_recruit_back",
-            "img_1",
-            "img_1_back",
-            "img_2",
-            "img_2_back",
-            "img_3",
-            "img_3_back",
-            "img_4",
-            "img_4_back",
-            "img_5",
-            "img_5_back",
-        ]:
-            if not pd.isnull(row[item]):
-                usedImages[row[item]] = True
+    if not skipOld:
+        oldData = pd.read_csv(oldPath)
+        for index, row in oldData.iterrows():
+            for item in [
+                "img_recruit",
+                "img_recruit_back",
+                "img_1",
+                "img_1_back",
+                "img_2",
+                "img_2_back",
+                "img_3",
+                "img_3_back",
+                "img_4",
+                "img_4_back",
+                "img_5",
+                "img_5_back",
+            ]:
+                if not pd.isnull(row[item]):
+                    usedImages[row[item]] = True
     newData = generate_missing_data(toSearch, usedImages)
     newData.to_csv(newPath, index=False)
 
 
-main(["res/HoN-v1"], "res/recruitment_data.csv", "res/new_recruitment_data.csv")
+main(
+    ["res/HoN-v2", "res/SoN"],
+    "res/recruitment_data.csv",
+    "res/new_recruitment_data.csv",
+    True,
+)

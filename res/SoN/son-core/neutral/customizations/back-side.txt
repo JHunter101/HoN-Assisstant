@@ -1,0 +1,2 @@
+The customization backside is stored in the Common folder because it is used in several products:
+https://drive.google.com/drive/folders/1UGSYIbX5Hfbvlg-7oDCXwho7NjuDlrWf
